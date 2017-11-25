@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "ab784387-65a2-40dd-bb46-d46f9e9b866c",
+            "Value": {
+                "id": "1492cd44-3504-42d1-aac8-1dab4940e3e5",
+                "resourcePath": "objects\\objMega_john\\objMega_john.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "af40ed2b-53e3-4575-9eca-4f076b10faa1",
             "Value": {
                 "id": "61e55db0-ee04-4e0c-985b-d3288bb1b9b4",
