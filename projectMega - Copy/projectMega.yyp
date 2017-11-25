@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "aa86e84f-6ec0-45e5-bd8a-aa77fab946ec",
-            "Value": {
-                "id": "74caa0f4-5b4f-439f-a74a-d6ace3d61650",
-                "resourcePath": "objects\\objMegaMan\\objMegaMan.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ab784387-65a2-40dd-bb46-d46f9e9b866c",
             "Value": {
                 "id": "1492cd44-3504-42d1-aac8-1dab4940e3e5",
