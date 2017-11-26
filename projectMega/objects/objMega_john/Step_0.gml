@@ -58,6 +58,7 @@ if ground == true {
 			
 			//animation speed of the sprite
             image_speed = 0.15;
+			
 			//makes sprite face left
             image_xscale = -1;
         }
@@ -66,8 +67,10 @@ if ground == true {
     else if isStep == false && canMove == true {
 		
         stepTimer = 0;
+		
 		//walking speed is set to zero
         vel = 0;
+		
         if canSpriteChange == true {
 			//changes sprite to walking one
             sprite_index = spriteStand;
@@ -85,6 +88,7 @@ if ground == true {
 			
 			//makes player move one pixel forward
             vel = image_xscale * stepSpeed;
+			
             if canSpriteChange == true {
 				
 				//changes sprite to pixel stepping one
@@ -92,6 +96,7 @@ if ground == true {
 			}// end of if canSpriteChange statement
             
             stepTimer += 1;
+			
 			//makes sure player can't pixel step again until current pixel step finishes
             if stepTimer >= stepFrames {
 				
@@ -155,6 +160,7 @@ if ground == true {
 else {
 	
     gravity = grav;
+	
 	//keeps the fall speed from going too fast
     if vspeed > maxVspeed {
         vspeed = maxVspeed;
@@ -213,7 +219,8 @@ if keyboard_check_pressed(ord("J")) && instance_number(objMegamanBullet) < 3 && 
 
 //////////////////////Sliding///////////////////////////////////
 
-if ground == true && keyboard_check(ord("S")) && keyboard_check_pressed(ord("K")) && isSlide == false {
+if ground == true && keyboard_check(ord("S")) && keyboard_check_pressed(ord("K")) 
+	&& isSlide == false {
 	
     isSlide = true;
     sprite_index = spriteSlide;
@@ -230,7 +237,7 @@ if isSlide == true {
     
     if (keyboard_check(ord("D")) && image_xscale == 1 && !place_meeting(x, y-3, objSolid))
     || (keyboard_check(ord("A")) && image_xscale == -1 && !place_meeting(x, y-3, objSolid))
-    || ground == false or (image_xscale == 1 && place_meeting(x+vel+1, y, objSolid))
+    || ground == false || (image_xscale == 1 && place_meeting(x+vel+1, y, objSolid))
     || (image_xscale == -1 && place_meeting(x+vel-1, y, objSolid)) {
 		
         event_user(0);
