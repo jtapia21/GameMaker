@@ -1,14 +1,20 @@
-Hey John to make the process a lot easier for you download the desktop version off gitub so you can pull, push, and commit the changes to do from your computer to the master branch.
-link below
-https://desktop.github.com/
+Jesse: implimented the sliding code and added more to room 1 to test the mega slide.
 
-also watch this video teaches you how to use github desktop version with gameMaker studio 2. It is in parts, the first part teaches you how to create the repository, the second teaches you how to join in and add stuff. watch the whole video and you will understand how to use it and add the changes without us sending emails or copying and pasting the codes each time.
+General information: noticed that KEYHOLD_DOWN is not working may need to check the global control variables.
+could not test the sliding because global control variables not seem to be working in my computer.
 
-link to video below
-https://www.youtube.com/watch?v=hWBFkgdrgn0&t=4s
+John:
 
-
-we can use this note sheet to communicate with each other or add a list what we need to do or want to do.
+General information: 
 
 
-if you have more code in yours delete this one and add yours up to you
+
+
+
+list of what we need 
+- lemons sprites 
+- hit dictection for lemons 
+- create enemies
+- create first boss
+
+

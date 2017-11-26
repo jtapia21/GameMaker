@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "329c5653-6c6f-4429-b933-5474aac6c007",
+            "Value": {
+                "id": "1b4c694e-e946-44a6-87ca-06aed5a67aac",
+                "resourcePath": "sprites\\sprMegaSlideMask\\sprMegaSlideMask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "330613c7-9c30-4407-8e46-d0569d31491f",
             "Value": {
                 "id": "2a428644-a767-4d91-bb9f-d7332e00cbbe",
