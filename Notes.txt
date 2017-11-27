@@ -4,7 +4,7 @@ General information: noticed that KEYHOLD_DOWN is not working may need to check 
 could not test the sliding because global control variables not seem to be working in my computer.
 
 John:
-
+learn to use this 
 General information: 
 
 
