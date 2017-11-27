@@ -27,7 +27,5 @@ spriteJump = sprMegaJump;
 spriteWalk = sprMegaWalk;
 spriteSlide = sprMegaSlide;
 
-//why
-
 
 

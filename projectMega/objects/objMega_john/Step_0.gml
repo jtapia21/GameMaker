@@ -172,7 +172,7 @@ else {
 
 //if player is on the ground and presses the jump key
 if ground == true && keyboard_check_pressed(ord("K")) && !keyboard_check(ord("S"))
-&& !(isSlide == true && place_meeting(x, y-3, objSolid)) {
+&& !(isSlide == true && place_meeting(x, y-4, objSolid)) {
 	
     if isSlide == true {
 		
