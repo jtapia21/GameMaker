@@ -167,11 +167,27 @@
             }
         },
         {
+            "Key": "7c71cfc3-d8e1-4e91-a4f0-2951d4ce76c5",
+            "Value": {
+                "id": "07a0bf24-d0cb-48e7-9b5d-31e0c17664c3",
+                "resourcePath": "objects\\objCameraScroll\\objCameraScroll.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8fd15cc5-3deb-440b-a31e-663c1940037e",
             "Value": {
                 "id": "9a965f20-98ea-4e38-b19b-426da3e8fdc5",
                 "resourcePath": "sprites\\sprMegaWalkShoot\\sprMegaWalkShoot.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9c284236-813a-4491-9f37-69fed26562fd",
+            "Value": {
+                "id": "e5c36298-285b-45f8-98ab-5496a71e5873",
+                "resourcePath": "objects\\objRedy\\objRedy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -292,6 +308,14 @@
                 "id": "8a41527e-79f8-4c03-b4b8-e5409bfaa277",
                 "resourcePath": "sprites\\sprMegaJump\\sprMegaJump.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fd1c347f-94f4-48c8-b937-4291b9a9e516",
+            "Value": {
+                "id": "511fde7c-177b-4964-a844-90645eff90a2",
+                "resourcePath": "objects\\objCamera\\objCamera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
