@@ -170,13 +170,13 @@ else {
 
 ///////////////////////jumping/////////////////////////////////
 
-//if player is on the ground and presses the jump key
+//if player is on the ground and presses the jump key and not the sliding key 
 if ground == true && keyboard_check_pressed(ord("K")) && !keyboard_check(ord("S"))
-&& !(isSlide == true && place_meeting(x, y-4, objSolid)) {
+&& !(isSlide == true && place_meeting(x, y-4, objSolid)) {	//and character not sliding
 	
-    if isSlide == true {
+    if isSlide == true {	//if character is currently slidding
 		
-        event_user(0);
+        event_user(0); //goes into user user event 0
     }//end of isSlide if statement 
     
 	//player jumps
@@ -218,7 +218,7 @@ if keyboard_check_pressed(ord("J")) && instance_number(objMegamanBullet) < 3 && 
 
 
 //////////////////////Sliding///////////////////////////////////
-
+//
 if ground == true && keyboard_check(ord("S")) && keyboard_check_pressed(ord("K")) 
 	&& isSlide == false {
 	
