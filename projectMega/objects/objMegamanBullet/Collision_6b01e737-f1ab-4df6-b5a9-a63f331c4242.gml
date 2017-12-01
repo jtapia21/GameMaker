@@ -1,0 +1,1 @@
+instance_destroy(); //Destroy itself when on contact with the enemy

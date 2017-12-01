@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1f80802a-d048-4792-9302-7a06b913549b",
+            "Value": {
+                "id": "cb83250e-a4b5-4d29-ad8d-4d85aeeabb50",
+                "resourcePath": "objects\\objEnemyParent\\objEnemyParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "261e20ba-ce80-4577-9b29-1aa45b1fa30b",
             "Value": {
                 "id": "8fc4abe3-f392-4cec-918a-e63a8a4265db",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "7c25d9af-27cc-4740-8f06-7dcb11c9d510",
+            "Value": {
+                "id": "bde219e8-f246-414f-87c7-f0f41748e189",
+                "resourcePath": "objects\\objHolyCurse\\objHolyCurse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7c71cfc3-d8e1-4e91-a4f0-2951d4ce76c5",
             "Value": {
                 "id": "07a0bf24-d0cb-48e7-9b5d-31e0c17664c3",
@@ -242,7 +258,7 @@
             "Key": "adf087f0-a531-4167-94ab-c32ed8ad0372",
             "Value": {
                 "id": "acae4bdb-0467-4d32-9a32-653c7bcdb1dc",
-                "resourcePath": "sprites\\sprEnemy3\\sprEnemy3.yy",
+                "resourcePath": "sprites\\sprHolyCurse\\sprHolyCurse.yy",
                 "resourceType": "GMSprite"
             }
         },
