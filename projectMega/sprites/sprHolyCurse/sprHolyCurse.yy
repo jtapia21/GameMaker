@@ -2,7 +2,7 @@
     "id": "adf087f0-a531-4167-94ab-c32ed8ad0372",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprEnemy3",
+    "name": "sprHolyCurse",
     "For3D": false,
     "HTile": false,
     "VTile": false,
