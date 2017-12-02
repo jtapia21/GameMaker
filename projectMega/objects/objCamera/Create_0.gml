@@ -1,8 +1,7 @@
-//work in progress
 
-view_camera[0] = objCamera
-view_hport[objCamera] = 128;
-view_wport[objCamera] = 112;
+camera_set_view_target(view_camera[0], objCamera);
+//view_hport[objCamera] = 128;
+//view_wport = 600;
 
 x=camera_get_view_x(objCamera) +128;
 y=camera_get_view_y(objCamera) +112;

@@ -213,6 +213,7 @@ if keyboard_check_pressed(ord("J")) && instance_number(objMegamanBullet) < 3 && 
     ID = instance_create_depth(box+image_xscale*6, y+2, 1, objMegamanBullet);
         ID.hspeed = image_xscale * 5;
     isShoot = true;
+	audio_play_sound(snd_shoot1, 10, false)
     alarm[0] = 20;
 }
 
