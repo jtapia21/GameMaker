@@ -1,7 +1,4 @@
-Jesse: implimented the sliding code and added more to room 1 to test the mega slide.
-
-General information: noticed that KEYHOLD_DOWN is not working may need to check the global control variables.
-could not test the sliding because global control variables not seem to be working in my computer.
+Jesse: enemy objects, movement, and hurt invisibility.
 
 John:
 learn to use this 
@@ -9,7 +6,9 @@ General information:
 
 
 
-
+List of what has been done.
+- Megaman done
+- First enemy sprites, object, and movement.
 
 list of what we need 
 - lemons sprites 
