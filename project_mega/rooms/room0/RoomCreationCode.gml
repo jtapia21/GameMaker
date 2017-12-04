@@ -5,7 +5,7 @@ init_music();
 global.currentlevel = room;
 
 //plays music for this stage
-play_music(global.music_testRoom,"mp3","loop");
+play_music(global.music_se,"mp3","loop");
 
 //player health
 global.myhealth = 28;

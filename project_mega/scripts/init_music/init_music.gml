@@ -10,3 +10,5 @@ global.music_introStage = introMusic
 
 
 global.music_testRoom = testMusic;
+global.music_qm = Quickman;
+global.music_se = stormEagle;

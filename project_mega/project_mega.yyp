@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "05c635ca-9cd5-4c0e-bbc4-6fdb873dd11d",
+            "Value": {
+                "id": "14af7e30-b934-45d4-8a3c-b62e7384693f",
+                "resourcePath": "sounds\\Quickman\\Quickman.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "05ec4c0f-abf4-4777-8c57-8e4d59b8555e",
             "Value": {
                 "id": "268ec875-d6ff-42f7-b72c-1d62cad5ff79",
@@ -404,6 +412,14 @@
                 "id": "51bbf69b-ce90-42e8-9431-3448951e33f5",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cfb8178a-7531-41bf-8320-c8675d13cb73",
+            "Value": {
+                "id": "2bf98a87-fd1c-49ca-b491-019c430e1720",
+                "resourcePath": "sounds\\stormEagle\\stormEagle.yy",
+                "resourceType": "GMSound"
             }
         },
         {
