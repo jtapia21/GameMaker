@@ -4,7 +4,8 @@ Put in room creation code.
 play_play(global.music_[name you gave song in init_music], "mp3", "loop" or "play")
 argument0 = music to play
 argument1 = type of music: mp3
-argument2 = way to play the music: "loop" or "play"
+argument2 = way to play the music: "loop" or "play" once
+
 ex:
 play_music(global.music_introStage, "mp3", "loop")
 */
@@ -37,4 +38,6 @@ with (system_obj)
 		
 		}
     }
+	/*if (type = "wav"{	
+	}*/
 }
