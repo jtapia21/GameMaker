@@ -9,6 +9,7 @@ canShoot = true;
 isSlide = false;
 canMove = true;
 canSpriteChange = true;
+ishurt = false; //are we currently hurt?
 
 //Physics variables
 grav = 0.25;
