@@ -1,0 +1,35 @@
+----->Controls
+Z      = Jump
+X      = Shoot / Charge
+Enter  = Start / Pause
+Arrows = Move
+F1-4   = Switch Screen Modes
+F7     = Reset Game
+1      = CHEAT KEY - Toggle player invincibility
+2      = CHEAT KEY - Fill or drain health
+3      = CHEAT KEY - All bosses defeated (all weapons gained)
+4      = CHEAT KEY - Use with the previous cheat key to fight Napalm Man with other weapons.
+
+
+
+
+----->What this Engine Includes
+-Fully Functional Player Engine (incl/ Sliding & Ladders)
+-Palette Swapping System (Weapons/Charging, Energy Bar, Items)
+-5 Functional Weapons (Normal/Charge Shot, Napalm, Gyro, Crystal, Star)
+-Interactive Stage Elements (Spikes, Water, Moving Floors, Boss Doors)
+-Items (Energy/Weapon Capsules, Lives, E-Tanks, Collectable Letters)
+-Game Freezing Effect (Filling Energy, Room Shifting, etc.)
+-Room Shifts (Left-Right, Down Holes, Up Ladder, Wall to Prevent Backtracking)
+-Fully Functional Pause Menu (Weapons Select, Cursor, Using E-Tank, etc.)
+-Background Animator
+-Checkpoints
+-8 Enemies (Lyric, Subeil, Taban, P.Muscler, Sumatran, Mizzile, Jet Bomb, C.Joe)
+-1 Level with Boss (Napalm Man)
+-Presented By / Title Screen
+-Stage Select (Allows Return to Defeated Boss Stage)
+-Boss Intro
+-Boss Defeat Victory
+-Get Weapon Screen
+-Game Over Screen (Stage Select, Continue)
+-...

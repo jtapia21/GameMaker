@@ -1,3 +1,4 @@
 ///@description intialized The Holly Curse
 
-eSpeed = 3;
+minionHealth = 2;
+image_speed = .15;

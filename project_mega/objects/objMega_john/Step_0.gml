@@ -1,8 +1,10 @@
 //check if player is on the ground
-if place_meeting(x, y+vspeed+1, objSolid)
+if place_meeting(x, y+vspeed+1, objSolid) {
     ground = true;
-else
+}
+else {
     ground = false;
+}
 
 ///////////////////////////////movement////////////////////////////////////
 
