@@ -1,3 +1,4 @@
+///@description Variables
 ground = true; //If we are on the ground
 isStep = false; //Are we sidestepping?
 stepTimer = 0;

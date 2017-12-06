@@ -1,4 +1,4 @@
-/// @description player loosing health 
+/// @description Player loosing health 
 
 if ishurt == false {
 	

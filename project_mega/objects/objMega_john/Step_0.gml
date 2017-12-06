@@ -1,3 +1,4 @@
+///@description Player code
 //check if player is on the ground
 if place_meeting(x, y+vspeed+1, objSolid) {
     ground = true;
@@ -221,8 +222,8 @@ if keyboard_check_pressed(ord("J")) && instance_number(objMegamanBullet) < 3 && 
 
 
 //////////////////////Sliding///////////////////////////////////
-//
-if ground == true && keyboard_check(ord("S")) && keyboard_check_pressed(ord("K")) 
+//if player is on the ground and press jump and down than slide 
+if ground == true && keyboard_check(ord("S")) && keyboard_check_pressed(ord("K"))
 	&& isSlide == false {
 	
     isSlide = true;
