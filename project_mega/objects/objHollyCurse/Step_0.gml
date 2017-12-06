@@ -1,10 +1,9 @@
 /// @description Move towards player
 
-//Holly curse moves towards player
-//var dir = point_direction(x, y, objMega_john.x, objMega_john.y);
+script_execute(state); //Activates state
 
-//moveTo
-
+//minion health reaches 0
 if minionHealth <= 0 {
-	instance_destroy();
-}
+	
+	instance_destroy(); //Minion gets destroyed
+}//End of if statement

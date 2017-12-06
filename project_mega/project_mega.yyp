@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "5ab1f7b0-c8aa-42b9-8a32-fd9a3a447ede",
+            "Value": {
+                "id": "45cabf4d-92b3-4e70-98e5-d1260f078173",
+                "resourcePath": "scripts\\scrMinionStatic\\scrMinionStatic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "609e3b8e-f5be-45a0-9dbf-608317c10d7c",
             "Value": {
                 "id": "1ceabb6f-caaa-4163-9939-632c0d478f02",
@@ -220,6 +228,14 @@
                 "id": "dcf98c7a-a766-4a6e-b380-faac0d080ca2",
                 "resourcePath": "objects\\objCameraScroll\\objCameraScroll.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "63dd1571-61d7-4510-98e8-7d11991d475e",
+            "Value": {
+                "id": "af0d9a58-0ea5-42a9-acbb-203da708d863",
+                "resourcePath": "scripts\\scr_minion_follow\\scr_minion_follow.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -539,7 +555,9 @@
         "a6a94545-665f-44f8-bf32-380ae0ebb587",
         "0873e1d2-8bd5-49f1-a182-842b05b4d4e1",
         "14bcbf8d-8430-4c11-8b90-15b95155854a",
-        "f33bf9ed-270d-44e5-a456-190d16e3ea60"
+        "f33bf9ed-270d-44e5-a456-190d16e3ea60",
+        "5ab1f7b0-c8aa-42b9-8a32-fd9a3a447ede",
+        "63dd1571-61d7-4510-98e8-7d11991d475e"
     ],
     "tutorial": ""
 }
