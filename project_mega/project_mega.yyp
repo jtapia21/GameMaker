@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "ca5fdaff-8147-4fb4-bd5d-2a44ce86d56c",
+            "Value": {
+                "id": "b4d5d514-3838-4ad4-8f71-0745cefe056b",
+                "resourcePath": "objects\\objDemonWolf\\objDemonWolf.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cbb072db-3ac9-4093-b481-dafa66680d7f",
             "Value": {
                 "id": "7cf1559f-f24c-42a2-a57a-b71917171e08",
