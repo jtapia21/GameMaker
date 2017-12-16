@@ -10,7 +10,4 @@ if(dis <= aggroRange) {
 	//move_towards_point(objMega_john.x, objMega_john.y, 2); //Move towards player
 	
 	////////////////Insert code for minion to back off from player here//////////////////////
-	/*if(dis == position_meeting(x, y, objMega_john)) {
-		
-	}*/
 }//End of if statement

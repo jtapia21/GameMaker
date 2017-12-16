@@ -1,4 +1,4 @@
-/// @description Enemy destroy when hit from player attack 
+/// @description Minion gets damaged from player attack 
 
 visible = 0;
 minionHealth -= 1;
