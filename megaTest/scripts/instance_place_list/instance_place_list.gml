@@ -10,6 +10,8 @@
 **      a ds_list id, or keyword noone if no instances are found
 **
 **  GMLscripts.com - xot
+**
+**	Checks to see if player touches anything
 */
 {
     var x1,y1,obj,dsid,this,that,i;
