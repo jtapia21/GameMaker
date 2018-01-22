@@ -17,5 +17,7 @@ if (KEYHOLD_B && pressing_b == 0 && sliding == 0 &&
     //if (grounded) {canwalk = 0; hsp=0; x=floor(x);} 
     pressing_b = 1; 
     if (!grounded) {Fire(proto_bullet1,14);}
-    else {Fire(proto_bullet1,14);}
+    else {
+		Fire(proto_bullet1,14);
+		}
 }

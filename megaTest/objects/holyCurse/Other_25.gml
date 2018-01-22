@@ -1,6 +1,7 @@
 instance_destroy();
 new = instance_create_depth(xstart,ystart,10,holyCurse);
 
+//if not paused or grabbing and item
 if (froze == 0 && onscreen == 1) 
 {
     with (new) 
