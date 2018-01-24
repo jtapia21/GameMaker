@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "124341cf-cd11-4278-b301-dd709d094ff4",
+            "Value": {
+                "id": "d81bb707-1266-4c0c-88e8-84dc4aa321b9",
+                "resourcePath": "sprites\\mega_jump_shoot_frame\\mega_jump_shoot_frame.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "143983f6-cafa-4239-97c7-0ac023345c4b",
             "Value": {
                 "id": "ef87e373-5364-49c7-9547-fda8730bf14d",
@@ -140,6 +148,14 @@
                 "id": "b6062400-d319-46a6-ba9e-9d52dc857ed8",
                 "resourcePath": "sounds\\sndEnemyHit\\sndEnemyHit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "1d00c2f5-59ed-4895-ac5b-f375ded3e1d0",
+            "Value": {
+                "id": "3e566d4b-6e1b-4f6a-9f34-41ee1ff0f069",
+                "resourcePath": "sprites\\mega_walk_shoot_frame\\mega_walk_shoot_frame.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "6c2abdfd-b2f6-4f6e-9286-f6d42ceb4aaa",
+            "Value": {
+                "id": "5ba8202a-f526-4445-96e5-148a9beb25a5",
+                "resourcePath": "sprites\\mega_climb_shoot_frame\\mega_climb_shoot_frame.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6ca67060-f3cf-421a-a384-9f6b11ca0fa9",
             "Value": {
                 "id": "8646d3b2-e60f-4384-838c-acbf3db74c85",
@@ -719,6 +743,14 @@
             }
         },
         {
+            "Key": "8e8bba9c-c536-481c-9c82-2587bff62c24",
+            "Value": {
+                "id": "b3a65462-1823-4c2a-8f46-78d57bd2dfb2",
+                "resourcePath": "sprites\\mega_stand_eyes\\mega_stand_eyes.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9069d8d4-48f1-4590-8610-ec3112b465db",
             "Value": {
                 "id": "b7924088-e77e-4e34-8568-3c21e70419ee",
@@ -759,6 +791,14 @@
             }
         },
         {
+            "Key": "a2a09fe7-9aa4-4fd9-b2b4-b87b2d7d94ef",
+            "Value": {
+                "id": "47e77e79-adfe-4481-b6e5-ff985e06727b",
+                "resourcePath": "sprites\\mega_jump_frame\\mega_jump_frame.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a5339765-8afb-4e31-afd1-dd13a8893148",
             "Value": {
                 "id": "c721c92f-d3ae-4f1b-8f81-0f08cde7766a",
@@ -787,6 +827,14 @@
             "Value": {
                 "id": "8f10dd44-f630-4d6c-8aaf-3f9df293d64a",
                 "resourcePath": "sprites\\sprItemMask\\sprItemMask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a73f5992-4273-4bad-84ca-3e07fa3cd64d",
+            "Value": {
+                "id": "eba859f3-fd5e-44dc-92b5-6d8a49f6d3fa",
+                "resourcePath": "sprites\\mega_stand_hair\\mega_stand_hair.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1100,6 +1148,22 @@
                 "id": "1f79e5bd-7334-4ece-afb6-81af08fccb1e",
                 "resourcePath": "views\\fbcc99ba-a93d-414e-8218-0b23bf4fcca9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fcfe0ac6-2b93-48f0-85de-cd54f10bef50",
+            "Value": {
+                "id": "43c940f7-205b-4c3c-9d5a-db3ba2590add",
+                "resourcePath": "sprites\\mega_stand_shoot_frame\\mega_stand_shoot_frame.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fdad6211-dad2-4f1c-9895-93f33ae03f0c",
+            "Value": {
+                "id": "98b225bf-92a4-4ff2-a6b9-e541b188f90c",
+                "resourcePath": "sprites\\DeathTheReaper\\DeathTheReaper.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
