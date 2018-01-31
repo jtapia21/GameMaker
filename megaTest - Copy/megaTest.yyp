@@ -1351,6 +1351,14 @@
             }
         },
         {
+            "Key": "f6da6227-6a3d-44bb-914a-231046c0366e",
+            "Value": {
+                "id": "bdee6117-fcc0-4422-bd14-dd359eaccb03",
+                "resourcePath": "objects\\boss_energyfiller\\boss_energyfiller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f7d5d484-929d-49bd-92cb-951e6c85ae6b",
             "Value": {
                 "id": "01dc7d45-9cc7-4f45-8651-bac95d3c9a12",

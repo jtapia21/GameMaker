@@ -21,4 +21,4 @@ global.eyes_w0 = make_color_rgb(5, 5, 5); make_color_hsv(0, 0, 2);
 ///find out whats our current color
 global.frame = global.frame_0;
 global.hair = global.hair_w0;
-globa.eyes = global.eyes_w0;
+global.eyes = global.eyes_w0;

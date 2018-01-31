@@ -133,12 +133,12 @@ else bschrg = true;
 
 if (KEYHOLD_B && hurt == 0 && global.currentweapon=="normal" && bschrg) 
 {
-    if (press_b == 0) {press_b = 1;}
+    if (pressing_b == 0) {pressing_b = 1;}
     if (chargeloop < 45) {chargeloop += 1;}
     if (chargeloop == 21) {/*sound_play(sfx_charging1);*/ alarmchargefx = 1; alarmcharge = 36; charge = 1;}
     if (chargeloop == 44) {charge = 2;}
 }
-if (!KEYHOLD_B && press_b != 0 && slide == 0) 
+if (!KEYHOLD_B && pressing_b != 0 && slide == 0) 
 {
 press_b = 0;
 chargeloop = 0; 
@@ -150,7 +150,7 @@ chargeimgloop = 0;
 if (chargeloop > 20 && chargeimgloop < 30 && bschrg) {chargeimgloop += 1;}
     
     
-if (!KEYHOLD_B && press_b != 0 && slide == 0) 
+if (!KEYHOLD_B && pressing_b != 0 && slide == 0) 
 {
 press_b = 0;
 }
