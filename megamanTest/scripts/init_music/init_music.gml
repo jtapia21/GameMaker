@@ -8,5 +8,5 @@ ex:
 global.music_introStage = introMusic
 */
 
-global.music_testRoom2 = titleMusic;
 global.music_testRoom = testMusic;
+global.music_testRoom1 = titleMusic;

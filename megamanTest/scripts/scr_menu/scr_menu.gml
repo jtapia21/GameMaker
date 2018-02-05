@@ -3,6 +3,7 @@ switch (mpos) {
 	
 	case 0: {
 		room_goto_next();
+		stop_music();
 		break;
 	}//End of case one
 	
