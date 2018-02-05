@@ -1,1 +1,0 @@
-if (pre_sp == 0) {pre_sp = speed;}
