@@ -1,4 +1,6 @@
-init_music();
+global.currentlevel = room;
+//play_music(global.music_testRoom,"mp3","loop");
+/*init_music();
 init_color();
 
 global.currentlevel = room;
@@ -25,4 +27,4 @@ global.currentweapon = "normal";
 global.frostweapon = 28;
 
 //boss variables
-global.frostDefeated = 1;
+global.frostDefeated = 1; */
