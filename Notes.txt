@@ -1,19 +1,17 @@
-Jesse: enemy objects, movement, and hurt invisibility.
+Jesse:
+TODO:
+	- Need to fix open platform gimmick
+	- Need to finish both weapon implaments (Stopped at step 7)
+	- Think about more minions and the bosses
+
+Added:
+
+Errors: Found an error where frost barrier disapears when passing a minion spawnpoint.
 
 John:
-learn to use this 
-General information: 
+TODO:
 
+Added:
 
-
-List of what has been done.
-- Megaman done
-- First enemy sprites, object, and movement.
-
-list of what we need 
-- lemons sprites 
-- hit dictection for lemons 
-- create enemies
-- create first boss
-
+Errors:
 
