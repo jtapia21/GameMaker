@@ -1,0 +1,1 @@
+//put in part of stage where you dont want the camera to move right

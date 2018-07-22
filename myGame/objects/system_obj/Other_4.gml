@@ -1,0 +1,1 @@
+if (room_caption == "") {room_caption = windowcap;}

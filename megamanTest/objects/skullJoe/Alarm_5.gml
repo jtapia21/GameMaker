@@ -1,1 +1,0 @@
-canspin = 1

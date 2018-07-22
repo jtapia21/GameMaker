@@ -1,0 +1,1 @@
+sprite_index = time_intro;
