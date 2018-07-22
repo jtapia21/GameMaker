@@ -1,0 +1,1 @@
+MYENEMY = instance_place(x,y-16,enemyparent);

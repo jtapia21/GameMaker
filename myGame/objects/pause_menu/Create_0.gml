@@ -1,0 +1,3 @@
+//freezes evrything
+Freeze(true);
+

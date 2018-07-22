@@ -1,0 +1,1 @@
+play_music(global.music_testRoom2,"mp3","loop");
