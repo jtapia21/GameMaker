@@ -32,6 +32,8 @@ global.magmaweapon = 28;
 global.airweapon = 28;
 global.stopweapon = 28;
 global.chainweapon = 28;
+global.earthweapon = 28;
+global.bubbleweapon = 28;
 
 //boss variables
 global.frostDefeated = 1;
@@ -39,6 +41,8 @@ global.magmaDefeated = 1;
 global.airDefeated = 1;
 global.stopDefeated = 0;
 global.chainDeafeated = 1;
+global.earthDefeated = 1;
+global.bubbleDefeated = 1;
 
 global.ryuDefeated = 0;
 

@@ -19,7 +19,7 @@ number where change was made.
 
 * Added rem in the title screen
 
-* Added teleport sprite whem you click start
+* Added teleport sprite whem you click start and code
 
 * Deleted the Control option
 
@@ -27,29 +27,40 @@ number where change was made.
 
 * Added Giles theme in the menu for fun (Change later)
 
-/////////////////////////////////////////////////
+* Added the open platform Gimmick to the testroom
 
-* make a new global variable for weapon in first room creation code
+* Added the code for that gimmick (still needs work)
 
-* add colors for new weapon in scripts init_color and swap_color
+* Added the sprites for the boss introduction
 
-* add case for new weapon in object objMegaEnergy in draw event
+* Added the object for boss indroduction 
 
-* add new weapon to object pause_menu in draw and uservent 0
+* Added earth and bubble weapons but just stopped till step 7.
 
-* add weapon to object pause_curser in events create, step, and userevent 15
+//////////////////////Adding a weapon steps///////////////////////////
 
-* add weapon to object megaman in events step and keypress space. Also if necessary, add new sprite frames to draw event.
+1) make a new global variable for weapon in first room creation code
 
-* if necessary, add new cases for weapon to scripts fire and spritechange.
+2) add colors for new weapon in scripts init_color and swap_color
 
-* make a new script for weapon
+3) add case for new weapon in object objMegaEnergy in draw event
 
-* add weapon to items.
+4) add new weapon to object pause_menu in draw and uservent 0
 
-* make a new object for the weapon
+5) add weapon to object pause_curser in events create, step, and userevent 15
 
-* detect by an enemy
+6) add weapon to object megaman in events step and keypress space. Also if necessary, add new sprite frames to draw event.
 
-* add weapon to object pass_menu in event roomstart
+7) if necessary, add new cases for weapon to scripts fire and spritechange.
 
+8) make a new script for weapon
+
+9) add weapon to items.
+
+10) make a new object for the weapon
+
+11) detect by an enemy
+
+12) add weapon to object pass_menu in event roomstart
+
+////////////////////////////////////////////////////

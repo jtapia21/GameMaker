@@ -26,6 +26,10 @@ switch (global.currentweapon)
     x = pause_menu.ITS.x; y = pause_menu.ITS.y; break;
 	case "chain": 
     x = pause_menu.INC.x; y = pause_menu.INC.y; break;
+	case "earth": 
+    x = pause_menu.INC.x; y = pause_menu.INC.y; break;
+	case "bubble": 
+    x = pause_menu.INC.x; y = pause_menu.INC.y; break;
 }
 
 //Set input

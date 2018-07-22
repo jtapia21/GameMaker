@@ -35,6 +35,18 @@ switch (global.currentweapon)
         mybody = global.eyes_w5;
         draw_sprite(sprWeaponbarDark,global.chainweapon,x+99,y+206);
         break;
+		
+	case "earth":
+        myhead = global.hair_w6;
+        mybody = global.eyes_w6;
+        draw_sprite(sprWeaponbarDark,global.earthweapon,x+99,y+206);
+        break;
+		
+	case "bubble":
+        myhead = global.hair_w7;
+        mybody = global.eyes_w7;
+        draw_sprite(sprWeaponbarDark,global.bubbleweapon,x+99,y+206);
+        break;
 }
 
 draw_sprite_ext(sprStand,0,x+115,y+200,1,1,0,c_white,1);

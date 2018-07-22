@@ -20,6 +20,8 @@ with (IMB) {img = 4; eng = "magmaweapon"; if (global.magmaDefeated) visible = 1;
 with (IAS) {img = 6; eng = "airweapon"; if (global.airDefeated) visible = 1; }
 with (ITS) {img = 8; eng = "stopweapon"; if (global.stopDefeated) visible = 1; }
 with (INC) {img = 10; eng = "chainweapon"; if (global.chainDeafeated) visible = 1; }
+with (INC) {img = 10; eng = "earthweapon"; if (global.earthDefeated) visible = 1; }
+with (INC) {img = 10; eng = "bubbleweapon"; if (global.bubbleDefeated) visible = 1; }
 
 ET = instance_create_depth(x+18,y+180,-2300,menu_tanks);
 //MT = instance_create(x+80,y+184,menu_tanks);
