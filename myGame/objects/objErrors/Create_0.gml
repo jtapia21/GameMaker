@@ -25,4 +25,4 @@ changing to the next one. Keep button to change weapons?
 * when death in water, goes back to non water physics.
 
 * Frost barrier when active it dies when Rem is in a certain position in the stage 
-	(might be due to minion spawn point)
+	(This happens where you have minion spawn points. Frost barrier disapears right away when Rem passes by it)
