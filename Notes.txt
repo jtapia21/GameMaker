@@ -1,4 +1,4 @@
-Jesse:
+Jesse: Testing github terminal
 TODO:
 	- Need to fix open platform gimmick
 	- Need to finish both weapon implaments (Stopped at step 7)
