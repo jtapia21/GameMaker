@@ -58,6 +58,8 @@ if (x == pm.IMB.x && y == pm.IMB.y) {global.currentweapon = "magma";}
 if (x == pm.IAS.x && y == pm.IAS.y) {global.currentweapon = "air";}
 if (x == pm.ITS.x && y == pm.ITS.y) {global.currentweapon = "stop";}
 if (x == pm.INC.x && y == pm.INC.y) {global.currentweapon = "chain";}
+if (x == pm.INC.x && y == pm.INC.y) {global.currentweapon = "earth";}
+if (x == pm.INC.x && y == pm.INC.y) {global.currentweapon = "bubble";}
 
 if (x == pm.ET.x && y == pm.ET.y) {global.currentweapon = "normal";}
 

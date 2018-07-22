@@ -9,6 +9,8 @@ switch (global.currentweapon) {
 	case "air": weaponbar = global.airweapon; break;
 	case "stop": weaponbar = global.stopweapon; break;
 	case "chain": weaponbar = global.chainweapon; break;
+	case "earth": weaponbar = global.earthweapon; break;
+	case "bubble": weaponbar = global.bubbleweapon; break;
 }
 
 if (global.currentweapon != "normal") {

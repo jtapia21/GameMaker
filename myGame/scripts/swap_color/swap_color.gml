@@ -61,3 +61,15 @@ if(argument0 == "chain") {
 	global.hair = global.hair_w5;
 	global.eyes = global.eyes_w5;
 }
+
+if(argument0 == "earth") {
+	global.frame = global.frame_0;
+	global.hair = global.hair_w5;
+	global.eyes = global.eyes_w5;
+}
+
+if(argument0 == "bubble") {
+	global.frame = global.frame_0;
+	global.hair = global.hair_w5;
+	global.eyes = global.eyes_w5;
+}

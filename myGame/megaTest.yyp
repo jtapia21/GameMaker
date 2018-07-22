@@ -248,6 +248,25 @@
             }
         },
         {
+            "Key": "05228615-da05-40bc-b7db-1b4b71000d13",
+            "Value": {
+                "id": "0e36695c-bf81-4468-b0b7-defc1d94b29c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/ShootBubble\/ShootBubble.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "05896964-42a9-4961-b861-4729fac46b60",
             "Value": {
                 "id": "fef00bd2-bc3e-4759-848c-c19d12548b12",
@@ -5777,6 +5796,25 @@
             }
         },
         {
+            "Key": "bd755138-1c45-495f-8e93-71c0220d92ba",
+            "Value": {
+                "id": "ef4fc7e5-3a43-4207-98db-cd682e464ccd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/ShootEarth\/ShootEarth.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bde27425-efc7-4bf7-9023-63ba2ce56acb",
             "Value": {
                 "id": "78e6592d-dfbc-458b-8379-71e605bccacd",
@@ -7012,6 +7050,25 @@
             }
         },
         {
+            "Key": "e9400f6a-0c27-4a61-9eac-407fd350b608",
+            "Value": {
+                "id": "25cac73c-ccd7-46b2-900a-8eae1efca519",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objIntroduction\/objIntroduction.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e9bf258e-5ab0-4771-8306-90653cd0fd7c",
             "Value": {
                 "id": "16acc93d-9e21-47f0-9327-f2730aa2daa3",
@@ -7897,9 +7954,11 @@
         "db91154a-5193-4794-b034-e7e807d95ac4",
         "1b44c8cd-3e22-4198-b1d3-f74730d4ac25",
         "4f156aed-32a1-4fc4-88a2-6e3d79b52bd8",
+        "05228615-da05-40bc-b7db-1b4b71000d13",
         "acb8c42e-e53e-426d-a9d8-4685702f05de",
         "212aa129-2f25-47d6-8831-0f5f7c994340",
         "53b2ad06-e5d7-4e4f-90d9-03bef7de4672",
+        "bd755138-1c45-495f-8e93-71c0220d92ba",
         "ba2c892d-f554-4529-8ea7-199084e2a899",
         "37cd104f-a31f-4496-9a40-292cd4089eef",
         "bde27425-efc7-4bf7-9023-63ba2ce56acb",
