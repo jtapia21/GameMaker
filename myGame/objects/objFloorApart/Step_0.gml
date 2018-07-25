@@ -1,5 +1,3 @@
-/// @description Code for platform to open
-
 
 /*TODO
 Check when rem is in Position

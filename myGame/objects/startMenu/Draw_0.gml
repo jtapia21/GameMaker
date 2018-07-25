@@ -1,5 +1,3 @@
-/// @description Draw the menu and control up && down
-
 draw_set_halign(fa_left);
 draw_set_halign(fa_middle);
 draw_set_font(font0);
@@ -23,5 +21,6 @@ for (n = 0; n < array_length_1d(menu); n += 1) {
 
 //Draw the menu cursor in the right of the text
 draw_sprite(sprite_index, 0, x-48, y + (mpos * space) + 16);
+
 
 

@@ -3,7 +3,7 @@ if (paused) exit;
 /////boss actions here//////
 
 //faces the player
-if (sprite_index != SPRITE_WALKBOSS) {
+if (sprite_index != SPRITE_WALKBOSS && sprite_index != SPRITE_JUMPBOSS) {
 	
 	if (x < megaman.x) {image_xscale = 1; }
 	    else {image_xscale = -1; }
@@ -12,14 +12,16 @@ if (sprite_index != SPRITE_WALKBOSS) {
 //if not currently attacking and waited for next move
 if (attack == 0 && wait == 0) {
 	
-	//pick an attack at random
-	switch (irandom(2)) {
+	//choose attack at random
+	randNum = floor(random(100));
+
+	if (randNum < 30) {attack = 1;}
 	
-		case 0: attack = 1; break;
-		case 1: attack = 2; alarmjump = 10; alarmshoot = 30; break;
-		case 2: attack = 3; flashtimer = 45; break;
-		case 3: attack = 4; stopTimer = 60; break;
-	}
+	else if (randNum < 60) {attack = 2; alarmjump = 10; alarmshoot = 30;}
+	
+	else if (randNum < 80) {attack = 3; flashtimer = 45;}
+	
+	else {attack = 4; stopTimer = 100;}
 }
 
 #region attack 1
@@ -214,7 +216,7 @@ else if (attack == 3) {
 				sprite_index = SPRITE_WALKBOSS;
 				invisible = 0;
 				image_speed = 0.30;
-				flashtimer = 50;
+				flashtimer = 35;
 			}
 		}
 	}
@@ -238,6 +240,50 @@ else if (attack == 3) {
 				wait = 55;
 			}
 		}
+	}
+}
+
+#endregion
+
+#region attack 4
+
+else if (attack == 4) {
+	
+	//this attack will freeze megaman and then appear above
+	//only done if health is below half
+	if (global.myHealth > 0 && boss_energybar.bosshealth < 15) {
+		
+		//create flash effect
+		if (stopTimer == 100) {
+			
+			sprite_index = sprTimeStandKnife;
+			instance_create_depth(denyScrollRight.x-128,denyScrollRight.y-80,-2200,objTimeFlash)
+		
+		}
+		
+		//appears above megaman
+		if (instance_exists(megaman)) {
+		
+			TimeFreezeAttack();
+		
+			if (stopTimer == 12) {
+				
+				audio_stop_sound(sndTimeeffect); audio_play_sound(sndTimeeffect, 5, false);
+				x = megaman.x;
+				y = y - 112;
+				sprite_index = SPRITE_JUMPBOSS;
+				wait = 55;
+			}
+		}
+	}
+	
+	//not yet able to use this attack
+	else {
+		
+		attack = 0;
+		wait = 1;
+		alarmshoot = 1;
+		stopTimer = 0;
 	}
 }
 
@@ -270,7 +316,7 @@ if (!collision_rectangle(x-1,y-2,x+1,y+1,block,true,true)) {grounded=0; }
 
 //Set gravity
 if (grounded == 0 && shooting == 0) {vsp+=grav;}
-if (vsp >= 12) {vsp = 12;}
+if (vsp >= 7) {vsp = 7;}
 
 //Block collision - Y
 if (instance_place(x,y+vsp,block) && vsp<0)
@@ -290,6 +336,7 @@ if (instance_place(x,y+vsp,block) && vsp>0)
 		
 		sprite_index = SPRITE_STANDBOSS;
 		alarmshoot = 1;
+		stopTimer = 0;
 		attack = 0;
 		jumping = 0;
 		wait = 55;

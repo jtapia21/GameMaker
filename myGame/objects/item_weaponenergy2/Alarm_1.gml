@@ -7,4 +7,8 @@ switch (global.currentweapon)
 	case "air": CURRENT_WEAPON = "airweapon"; break;
 	case "stop": CURRENT_WEAPON = "stopweapon"; break;
 	case "chain": CURRENT_WEAPON = "chainweapon"; break;
+	case "earth": CURRENT_WEAPON = "earthweapon"; break;
+	case "bubble": CURRENT_WEAPON = "bubbleweapon"; break;
+	case "meteor": CURRENT_WEAPON = "meteorweapon"; break;
+	case "item1": CURRENT_WEAPON = "item1weapon"; break;
 }

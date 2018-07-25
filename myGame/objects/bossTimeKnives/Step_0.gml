@@ -7,14 +7,20 @@ if (x-2 > view_x+view_w || x+2 < view_x ||
 x+=hsp;
 y+=vsp;
 
-if (alarmChangeDirection > -1) {
+//changes direction to go down
+if (instance_exists(megaman)) {
 	
-	alarmChangeDirection -= 1;
-	
-	if (alarmChangeDirection == 0) {
+	if (image_xscale == -1 && x-1 < megaman.x) {
 		
 		hsp = 0;
-		alarm[0] = 12;
+		vsp = 4;
+		sprite_index = sprTimeKnivesDown;
+	}
+	
+	else if (image_xscale == 1 && x+1 > megaman.x) {
 		
+		hsp = 0;
+		vsp = 4;
+		sprite_index = sprTimeKnivesDown;
 	}
 }

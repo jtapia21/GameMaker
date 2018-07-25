@@ -1,10 +1,11 @@
-/// @description Code for menu cursers movement
-
 var move = 0;	//move the mouse curser up and down
 
-//Checks to see if user presses up arrow key or w or return 0 if false 
-move -= max(keyboard_check_pressed(vk_up), keyboard_check_pressed(ord("W")), 0);
-move += max(keyboard_check_pressed(vk_down), keyboard_check_pressed(ord("S")), 0);
+//Checks to see if user presses up arrow key or w or return 0 if false
+
+if (choiceMade == false) {
+	move -= max(keyboard_check_pressed(vk_up), keyboard_check_pressed(ord("W")), 0);
+	move += max(keyboard_check_pressed(vk_down), keyboard_check_pressed(ord("S")), 0);
+}
 
 if (move != 0) {
 	
@@ -37,13 +38,17 @@ if(lastselected != mpos) {
 //keeping track
 lastselected = mpos;
 
-//Checks to see if we push the enter 
-var push;
+if (choiceMade == false) {
+	//Checks to see if we push the enter 
+	var push;
 
-push = max(keyboard_check_released(vk_enter), keyboard_check_released(ord("K")), 0);
+	push = max(keyboard_check_released(vk_enter), keyboard_check_released(ord("K")), 0);
 
-//if button is pushed then call menu script
-if (push == 1) { 
-	scr_menu();	//Calls scr_menu
-}//End of if statement 
+	//if button is pushed then call menu script
+	if (push == 1) { 
+		scr_menu();	//Calls scr_menu
+		choiceMade = true;
+	}//End of if statement 
+}
+
 

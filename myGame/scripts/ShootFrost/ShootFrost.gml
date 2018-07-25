@@ -3,6 +3,9 @@ if (KEYHOLD_B && pressing_b == 0 && sliding == 0 &&
     global.frostweapon > 0 &&
     sprite_index != SPRITE_HURT &&
     hurt == 0) {
+	
+	global.frostweapon -= 2;
+	event_user(1);
     pressing_b = 1; 
     instance_create_depth(x,y,-10,frostBarrier,);
 }
@@ -16,8 +19,9 @@ if (KEYHOLD_B && pressing_b == 0 && sliding == 0 &&
     {
         if (phase == 1)
         {
-        event_user(1);
+
         phase = 2;
+		
         alarmdepth = 2;
         if (image_xscale == 1) hsp = movesp;
         else hsp = -movesp;

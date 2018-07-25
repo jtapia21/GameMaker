@@ -11,6 +11,9 @@ switch (global.currentweapon) {
 	case "chain": weaponbar = global.chainweapon; break;
 	case "earth": weaponbar = global.earthweapon; break;
 	case "bubble": weaponbar = global.bubbleweapon; break;
+	case "meteor": weaponbar = global.meteorweapon; break;
+	case "item1": weaponbar = global.item1weapon; break;
+
 }
 
 if (global.currentweapon != "normal") {

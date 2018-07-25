@@ -6,7 +6,7 @@ chargeimgloop = 0;
 charge = 0;
 audio_stop_sound(sndCharging); audio_stop_sound(sndCharged);
 
-if(myWeapon == 6) {
+if(myWeapon == 10) {
 	
 	myWeapon = 0;
 }
@@ -19,17 +19,17 @@ switch(myWeapon) {
 		swap_color(global.currentweapon); break;
 		
 	case 1:
-		global.currentweapon = "frost";
+		global.currentweapon = "magma";
 		timeStopping = 0;
 		swap_color(global.currentweapon); break;
 		
 	case 2:
-		global.currentweapon = "magma";
+		global.currentweapon = "frost";
 		timeStopping = 0;
 		swap_color(global.currentweapon); break;
 	
 	case 3:
-		global.currentweapon = "air";
+		global.currentweapon = "chain";
 		timeStopping = 0;
 		swap_color(global.currentweapon); break;
 		
@@ -38,7 +38,27 @@ switch(myWeapon) {
 		swap_color(global.currentweapon); break;
 		
 	case 5:
-		global.currentweapon = "chain";
+		global.currentweapon = "air";
+		timeStopping = 0;
+		swap_color(global.currentweapon); break;
+		
+	case 6:
+		global.currentweapon = "bubble";
+		timeStopping = 0;
+		swap_color(global.currentweapon); break;
+		
+	case 7:
+		global.currentweapon = "earth";
+		timeStopping = 0;
+		swap_color(global.currentweapon); break;
+		
+	case 8:
+		global.currentweapon = "meteor";
+		timeStopping = 0;
+		swap_color(global.currentweapon); break;
+		
+	case 9:
+		global.currentweapon = "item1";
 		timeStopping = 0;
 		swap_color(global.currentweapon); break;
 }

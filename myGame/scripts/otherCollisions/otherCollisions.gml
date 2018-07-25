@@ -31,6 +31,14 @@ if (collision_rectangle(x-7,y-2,x+7,bbox_top,enemyparent,true,true) && flash == 
         sprite_index = SPRITE_HURT;
         //instance_create(x,y-23,proto_hitspark);
         audio_play_sound(sndHit, 5, false);
+		
+		//destroy barrier if something got through it
+		if (instance_exists(frostBarrier)) {
+			if (frostBarrier.phase == 1) {
+			
+				instance_destroy(frostBarrier);
+			}
+		}
     }
     if (grounded == 0 && vsp < -1) {vsp = -1;}
     canwalk = 0;

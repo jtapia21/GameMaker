@@ -4,8 +4,10 @@ if (KEYHOLD_B && pressing_b == 0 && sliding == 0 &&
     global.magmaweapon > 0 &&
     sprite_index != SPRITE_HURT &&
     hurt == 0) {
-    pressing_b = 1; 
+	
+    pressing_b = 1;
+	global.magmaweapon -= 2;
+	
     if (!grounded) {Fire(magmaBazooka,14);}
     else {Fire(magmaBazooka,14);}
-    global.magmaweapon -= 2;
 }

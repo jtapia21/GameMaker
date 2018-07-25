@@ -13,7 +13,12 @@ switch (weaponquestion)
 	case "chain": 
         x = pause_menu.INC.x; y = pause_menu.INC.y; break;
 	case "earth": 
-        x = pause_menu.INC.x; y = pause_menu.INC.y; break;
+        x = pause_menu.ITN.x; y = pause_menu.ITN.y; break;
 	case "bubble": 
-        x = pause_menu.INC.x; y = pause_menu.INC.y; break;
+        x = pause_menu.IBC.x; y = pause_menu.IBC.y; break;
+	case "meteor": 
+        x = pause_menu.ISM.x; y = pause_menu.ISM.y; break;
+	case "item1": 
+        x = pause_menu.IIO.x; y = pause_menu.IIO.y; break;
+
 }

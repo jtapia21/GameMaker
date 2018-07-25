@@ -1,1 +1,1 @@
-if (room_caption == "") {room_caption = windowcap;}
+window_set_caption(windowcap);

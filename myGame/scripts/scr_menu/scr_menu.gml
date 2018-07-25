@@ -1,10 +1,11 @@
 //Controls what happens when you pick a menu option
-/*itch (mpos) {
+switch (mpos) {
 	
 	case 0: {
-		fade_to_room(selectScreen);
+		
+		with (effectsparent) {event_user(0);}
+		titleRem.prsEnter = 1;
 		stop_music();
-		//global.isStart = 1;
 		break;
 	}//End of case one
 	
@@ -19,21 +20,5 @@
 	}
 	
 	default: break;
-}*/
-
-switch (mpos) {
-	
-	case 0: {
-		fade_to_room(selectScreen);
-		stop_music();
-		//global.isStart = 1;
-		break;
-	}//End of case one
-	
-	case 1: {
-		game_end();
-		break;
-	}//End of case 1
-	
-	default: break;
 }
+

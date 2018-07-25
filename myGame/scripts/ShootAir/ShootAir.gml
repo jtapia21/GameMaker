@@ -5,8 +5,10 @@ if (KEYHOLD_B && pressing_b == 0 && sliding == 0 &&
     sprite_index != SPRITE_HURT &&
     hurt == 0) {
 
-	    pressing_b = 1;
+	    
+		pressing_b = 1;
+		global.airweapon -= 2;
+		
 	    if (!grounded) {Fire(airSlash,14); Fire(airSlash2,14)}
 	    else {Fire(airSlash,14); Fire(airSlash2,14)}
-		global.airweapon -= 2;
 }

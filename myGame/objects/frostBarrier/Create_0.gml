@@ -1,9 +1,6 @@
 //speed of the sprite
 image_speed = 0.30;
 
-//health of barrier, can take 3 hits
-barrierHealth = 2;
-
 //
 movesp = 4;
 
