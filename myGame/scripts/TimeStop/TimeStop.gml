@@ -11,6 +11,7 @@ if (KEYHOLD_B && pressing_b == 0 && sliding == 0 && global.stopweapon > 0 &&
 		timeStopping = 1;
 		
 		audio_stop_sound(sndTimeeffect); audio_play_sound(sndTimeeffect, 5, false);
+		instance_create_depth(view_x,view_y,-2200,objTimeFlash)
 }
 
 //allows knife throws while time is stopped

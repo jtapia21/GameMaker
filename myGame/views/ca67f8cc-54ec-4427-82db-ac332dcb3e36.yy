@@ -6,7 +6,7 @@
     "children": [
         "6744b330-96a0-4dda-a145-519bb6ff3614",
         "c1d85c93-14eb-48a8-891e-c1312bc8784f",
-        "e9400f6a-0c27-4a61-9eac-407fd350b608"
+        "6c304535-0371-4249-bd5d-94cc6857c50c"
     ],
     "filterType": "GMObject",
     "folderName": "selectScreen",

@@ -4,4 +4,4 @@ hsp=0;
 vsp=0;
 paused = 0;
 ricochet = 0;
-alarmfinish = 130;
+alarmfinish = 120;

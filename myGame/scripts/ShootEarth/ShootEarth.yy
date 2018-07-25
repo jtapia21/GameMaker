@@ -1,5 +1,5 @@
 {
-    "id": "bd755138-1c45-495f-8e93-71c0220d92ba",
+    "id": "4d9db86d-7874-45e7-be8b-104dc9059086",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "ShootEarth",

@@ -8,19 +8,19 @@ paused = 0;
 onscreen = 1;
 canhit = 0;
 froze = 0;
-isbullet = 1;
+
+//setting it to zero causes this projectile to destroy frost barrier in one hit
+isbullet = 0;
 
 //is affected by time stop
-timeStoppable = true;
+timeStoppable = false;
 
 timeStopping = 0;
-
-alarmChangeDirection = -1;
 
 audio_stop_sound(sndShoot1); audio_play_sound(sndShoot1, 5, false);
 
 if (instance_exists(bossTime)) {
 	
-	if (bossTime.image_xscale == -1) {image_xscale = -1; hsp = -5;}
-	else {hsp = 5; image_xscale = 1;}
+	if (bossTime.image_xscale == -1) {image_xscale = -1; hsp = -4;}
+	else {hsp = 4; image_xscale = 1;}
 }

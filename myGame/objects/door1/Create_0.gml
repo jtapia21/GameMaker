@@ -1,3 +1,5 @@
+depth = 99;
+
 image_speed = 0;
 mysteps = 0;
 lockd = -4;

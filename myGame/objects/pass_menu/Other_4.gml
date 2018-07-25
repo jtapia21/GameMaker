@@ -20,6 +20,10 @@ global.magmaweapon = 28;
 global.airweapon = 28;
 global.stopweapon = 28;
 global.chainweapon = 28;
+global.earthweapon = 28;
+global.bubbleweapon = 28;
+global.meteorweapon = 28;
+global.item1weapon = 28;
 
 if (image_index == 0) {
 	

@@ -8,7 +8,7 @@ onscreen = 1;
 flashing = 0;
 canhit = 0;
 froze = 0;
-xv = 2;
+xv = 8;
 isbullet = 0;
 
 //is affected by time stop

@@ -44,8 +44,11 @@ switch (global.currentweapon)
    case "air": ShootAir(); break;
    case "stop": TimeStop(); break;
    case "chain": ShootChain(); break;
-   case "chain": ShootEarth(); break;
-   case "chain": ShootBubble(); break;
+   case "earth": ShootEarth(); break;
+   case "bubble": ShootBubble(); break;
+   case "meteor": ShootMeteor(); break;
+   case "item1": ShootItem1(); break;
+
 }
 
 

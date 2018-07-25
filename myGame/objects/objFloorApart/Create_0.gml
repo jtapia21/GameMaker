@@ -1,4 +1,3 @@
-/// @description Set Values
 
 image_speed = 0;
 

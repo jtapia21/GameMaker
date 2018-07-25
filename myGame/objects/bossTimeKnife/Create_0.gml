@@ -10,7 +10,7 @@ froze = 0;
 isbullet = 1;
 
 //is affected by time stop
-timeStoppable = true;
+timeStoppable = false;
 
 timeStopping = 0;
 

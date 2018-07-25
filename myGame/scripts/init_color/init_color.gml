@@ -41,8 +41,17 @@ global.hair_w6 = make_color_rgb(165,42,42); //make_color_hsv(26,10,65);	//brown
 global.eyes_w6 = make_color_rgb(160,82,45); //make_color_hsv(0,100,39);	//Sienna
 
 //bubble
-global.hair_w6 = make_color_rgb(30,144,255); //make_color_hsv(26,10,65);	//dodger blue
-global.eyes_w6 = make_color_rgb(70,130,180); //make_color_hsv(0,100,39);	//steel blue
+global.hair_w7 = make_color_rgb(30,144,255); //make_color_hsv(26,10,65);	//dodger blue
+global.eyes_w7 = make_color_rgb(70,130,180); //make_color_hsv(0,100,39);	//steel blue
+
+//meteor
+global.hair_w8 = make_color_rgb(184,0,184); 
+global.eyes_w8 = make_color_rgb(84,84,84);
+
+//item1
+global.hair_w9 = make_color_rgb(252,216,132); 
+global.eyes_w9 = make_color_rgb(255,126,0); 
+
 
 
 ////////////current color///////////////

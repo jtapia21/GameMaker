@@ -10,7 +10,7 @@ global.music_introStage = introMusic
 
 
 global.music_testRoom = sndTestMusic2;
-global.music_testRoom1 = titleMusic2;
+global.music_testRoom1 = titleMusic;
 global.music_testRoom2 = sndStageSelect;
 global.music_boss1 = bossMusic1;
 global.music_victory = mus_victory;

@@ -64,12 +64,24 @@ if(argument0 == "chain") {
 
 if(argument0 == "earth") {
 	global.frame = global.frame_0;
-	global.hair = global.hair_w5;
-	global.eyes = global.eyes_w5;
+	global.hair = global.hair_w6;
+	global.eyes = global.eyes_w6;
 }
 
 if(argument0 == "bubble") {
 	global.frame = global.frame_0;
-	global.hair = global.hair_w5;
-	global.eyes = global.eyes_w5;
+	global.hair = global.hair_w7;
+	global.eyes = global.eyes_w7;
+}
+
+if(argument0 == "meteor") {
+	global.frame = global.frame_0;
+	global.hair = global.hair_w8;
+	global.eyes = global.eyes_w8;
+}
+
+if(argument0 == "item1") {
+	global.frame = global.frame_0;
+	global.hair = global.hair_w9;
+	global.eyes = global.eyes_w9;
 }

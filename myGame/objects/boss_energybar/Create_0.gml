@@ -2,7 +2,7 @@ image_speed = 0;
 bosshealth = 0;
 alarmfill = 1;
 defeated = 0;
-audio_play_sound(sndGetEnergy,5,false);
+audio_play_sound(sndGetEnergy,5,true);
 
 //These are the two colors of the energy bar
 //See the 'boss_energyfiller' object for where they're set

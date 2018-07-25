@@ -1,3 +1,3 @@
-if (room_caption == "") {room_caption = windowcap;}
+window_set_caption(windowcap);
 
-if (view_enabled) {x = view_x+32; y = view_y+32;}
+x = view_x+32; y = view_y+32;
