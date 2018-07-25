@@ -6,8 +6,6 @@ TODO:
 
 Added:
 
-Errors: Found an error where frost barrier disapears when passing a minion spawnpoint.
-
 John:
 TODO:
 
