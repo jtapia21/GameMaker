@@ -32,6 +32,7 @@ if(timer <= 0){
 		//(Find a better way on doing this)
 		if(imagePhase = 74)  {
 			image_speed = 0;
+			image_index = 0;
 			canFall = false;
 			timer = 20;
 			issolid = 1;
