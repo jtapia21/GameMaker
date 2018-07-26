@@ -2,13 +2,13 @@
 
 /////jesse/////
 
-1. Boss Intro
+1. Boss Intro(choose boss go to room and do the intro there and then switch back to stage room)
 2. Pause menu controls
 3. Get weapon screen
-4. enemy ideas for first stage
-5. Gimmicks
-6. Weapons
-7. Anything else you want to add or change
+4. enemy ideas for first stage (city, sewer(turtles is a most), clock tower, and on sub bosses[max of minions per stage is 5 plus sub boss])
+5. Gimmicks (time bombs(blizzard man) (something to swing across time man)
+6. Weapons(finish weapons)
+7. Anything else you want to add or change (sweet)
 
 
 /////john/////
