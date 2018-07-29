@@ -11,6 +11,11 @@
 7. Anything else you want to add or change (sweet)
 
 
+Enemy Ideas:
+Turtles that their shells protect them and pop out when they attack.
+Rats that run to you when player is at a certain distance
+
+
 /////john/////
 
 1. Sprites for first stage
