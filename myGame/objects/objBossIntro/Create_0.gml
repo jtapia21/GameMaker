@@ -17,19 +17,32 @@ createLineDown[1] = true;
 
 lineSpd = 2;
 
+//set variables
+standSprite = sprTimeStand; //The standing sprite
+pose = time_intro; //The posing sprite
+poseImgSpeed = 3/60; //The image speed (animation speed) of the pose
+name = "Paradox";
 
 
+//Not working.
 //Handles boss sprites and poses
 //Add more bosses to the list once they are added
 switch global.introductionBoss
 {
-    case "Paradox": //Pharaoh Man; currently the only boss
+    case "TimeRoom": //Paradox Man; currently the only boss
         standSprite = sprTimeStand; //The standing sprite
-        pose = time_intro; //The posing sprite
+        pose = sprTimeStandShoot; //The posing sprite
         poseImgSpeed = 3/60; //The image speed (animation speed) of the pose
         name = "Paradox";
-    break;
-}
+		break;
+	
+	case "testRoom":
+		standSprite = sprTimeStand;
+		pose = sprTimeStandShoot;
+		poseImgSpeed = 3/60;
+		name = "Ryu";
+		break;
+}//End of switch statement
 
 startPoseTimer = 0;
 startPoseTimerMax = 65;

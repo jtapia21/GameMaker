@@ -48,7 +48,9 @@ global.bubbleDefeated = 1;
 global.meteorDefeated = 1;
 global.item1Aquired = 1;
 
-
+global.introLineCol = 0;
+global.introBGCol = 0;
+global.introductionBoss= 0;
 global.ryuDefeated = 0;
 
 global.stageselect_value = 0;

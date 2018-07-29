@@ -1,10 +1,13 @@
 /* what we need left
 
-/////jesse/////
+/////Jesse/////
 
-1. Boss Intro(choose boss go to room and do the intro there and then switch back to stage room)
+1. Boss Intro
+	- Fixed font and text of the name of the boss
+	- Fix alignment of the text name of boss
+
 2. Pause menu controls
-3. Get weapon screen
+3. Get weapon screen(Showing player how the weapon is used)
 4. enemy ideas for first stage (city, sewer(turtles is a most), clock tower, and on sub bosses[max of minions per stage is 5 plus sub boss])
 5. Gimmicks (time bombs(blizzard man) (something to swing across time man)
 6. Weapons(finish weapons)
@@ -16,7 +19,7 @@ Turtles that their shells protect them and pop out when they attack.
 Rats that run to you when player is at a certain distance
 
 
-/////john/////
+/////John/////
 
 1. Sprites for first stage
 2. Intro for game
