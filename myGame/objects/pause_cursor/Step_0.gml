@@ -20,7 +20,9 @@ if (alarmfill > -1)
     }
 }
 
-if (!canmove) {exit;}
+if (!canmove) {
+	exit;
+}//End of if statement
 
 //Set Input
 if (global.input == 0)

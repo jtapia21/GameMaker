@@ -5,12 +5,19 @@
 1. Boss Intro
 	- Fixed font and text of the name of the boss
 	- Fix alignment of the text name of boss
+	- fix the switch statement
 
 2. Pause menu controls
+	- Need explanation where code movement is and what each section code represents
+
 3. Get weapon screen(Showing player how the weapon is used)
+
 4. enemy ideas for first stage (city, sewer(turtles is a most), clock tower, and on sub bosses[max of minions per stage is 5 plus sub boss])
+
 5. Gimmicks (time bombs(blizzard man) (something to swing across time man)
+
 6. Weapons(finish weapons)
+
 7. Anything else you want to add or change (sweet)
 
 
