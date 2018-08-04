@@ -7,9 +7,7 @@
 	- Fix alignment of the text name of boss
 	- fix the switch statement
 
-2. Pause menu controls
-	- Left and Right cursor movements are done
-	- Down and up are done
+2. Pause menu controls (completed)
 
 3. Get weapon screen(Showing player how the weapon is used)
 
