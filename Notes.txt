@@ -8,9 +8,8 @@
 	- fix the switch statement
 
 2. Pause menu controls
-	- Need explanation where code movement is and what each section code represents
-	- look at events in object pause_curser more specifically user event 4.
-	user event 1 is left, user event 2 is up, user event 3 is right. I did part of user event 4 which is down. I added comments.
+	- Left and Right cursor movements are done
+	- Down and up are done
 
 3. Get weapon screen(Showing player how the weapon is used)
 
@@ -38,3 +37,7 @@ Rats that run to you when player is at a certain distance
 6. Stage select screen improvements
 7. Anything else you want to add or change
 
+
+
+///////Bugs found////////
+1) when in the water Rem's sprite disapears she is invisible but still gets hurt 

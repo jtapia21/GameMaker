@@ -40,12 +40,32 @@ if (global.input == 0)
 //Press
 if (KEYHOLD_START && pressing_start == 0) {pressing_start = 1; event_user(0); exit;}
 if (KEYHOLD_A && pressing_a == 0) {pressing_a = 1; event_user(0); exit;}
-if (KEYHOLD_LEFT && pressing_left == 0) {pressing_left = 1; event_user(1);}
-if (KEYHOLD_UP && pressing_up == 0) {pressing_up = 1; event_user(2);}
-if (KEYHOLD_RIGHT && pressing_right == 0) {pressing_right = 1; event_user(3);}
-if (KEYHOLD_DOWN && pressing_down == 0) {pressing_down = 1; event_user(4);}
 
-//Release
+//Pressing left
+if (KEYHOLD_LEFT && pressing_left == 0) {
+	pressing_left = 1; 
+	event_user(1);
+}//End of pressing left if statement
+
+//pressing up
+if (KEYHOLD_UP && pressing_up == 0) {
+	pressing_up = 1; 
+	event_user(2);
+}//End of pressing up if statement
+
+//pressing right 
+if (KEYHOLD_RIGHT && pressing_right == 0) {
+	pressing_right = 1; 
+	event_user(3);
+}//End of pressing right if statement
+
+//prssing down
+if (KEYHOLD_DOWN && pressing_down == 0) {
+	pressing_down = 1; 
+	event_user(4);
+}//End of pressing down if statement
+
+//Release if the player is not pressing the keys 
 if (!KEYHOLD_START && pressing_start == 1) {pressing_start = 0;}
 if (!KEYHOLD_A && pressing_a == 1) {pressing_a = 0;}
 if (!KEYHOLD_LEFT && pressing_left == 1) {pressing_left = 0;}

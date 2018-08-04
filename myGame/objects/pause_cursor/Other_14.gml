@@ -68,4 +68,68 @@ if (x == pm.ET.x && y == pm.ET.y) {
 	if (pm.IPW.visible=1) {x=pm.IPW.x; y=pm.IPW.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
 }
 
-/////right side weapons/////
+///////////////////////////////////////right side weapons//////////////////////////////////////////////
+
+//if current weapon is normal
+else if (x == pm.IMB.x && y == pm.IMB.y)  {
+	
+	//if frost weapon exists, move down
+	if (pm.INC.visible=1) {x=pm.INC.x; y=pm.INC.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+	
+	//else if frost weapon does not exist, move to next weapon that might exist, which is time stop
+	else if (pm.IAS.visible=1) {x=pm.IAS.x; y=pm.IAS.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+	
+	//else if next weapon also does not exist, check for next weapon down the line. etc....
+	else if (pm.ITN.visible=1) {x=pm.ITN.x; y=pm.ITN.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+	
+	//next weapon
+	else if (pm.IIO.visible=1) {x=pm.IIO.x; y=pm.IIO.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+	
+	//else go to e tank
+	else if (pm.ET.visible=1) {x=pm.ET.x; y=pm.ET.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+}
+
+//if current weapon is ice barrier
+if (x == pm.INC.x && y == pm.INC.y)  {
+	
+	//if time weapon exists, move down
+	if (pm.IAS.visible=1) {x=pm.IAS.x; y=pm.IAS.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+	
+	//else if time does not exist, move to next weapon that might exist, which is bubble crash
+	else if (pm.ITN.visible=1) {x=pm.ITN.x; y=pm.ITN.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+	
+	else if (pm.IIO.visible=1) {x=pm.IIO.x; y=pm.IIO.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+	
+	else if (pm.ET.visible=1) {x=pm.ET.x; y=pm.ET.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+}
+
+//if current weapon is time stop
+if (x == pm.IAS.x && y == pm.IAS.y)  {
+	
+	if (pm.ITN.visible=1) {x=pm.ITN.x; y=pm.ITN.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+	
+	else if (pm.IIO.visible=1) {x=pm.IIO.x; y=pm.IIO.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+	
+	else if (pm.ET.visible=1) {x=pm.ET.x; y=pm.ET.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+}
+
+//if current weapon is bubble
+if (x == pm.ITN.x && y == pm.ITN.y)  {
+	
+	if (pm.IIO.visible=1) {x=pm.IIO.x; y=pm.IIO.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+	
+	else if (pm.ET.visible=1) {x=pm.ET.x; y=pm.ET.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+}
+
+//if current weapon is meteor
+if (x == pm.IIO.x && y == pm.IIO.y)  {
+	
+	if (pm.ET.visible=1) {x=pm.ET.x; y=pm.ET.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+}
+
+//if current selection is on the etank
+if (x == pm.ET.x && y == pm.ET.y) {
+	
+	//goes "down" and cycles back to the top
+	if (pm.IPW.visible=1) {x=pm.IPW.x; y=pm.IPW.y; audio_stop_sound(sndCursor); audio_play_sound(sndCursor,5,false); exit}
+}
