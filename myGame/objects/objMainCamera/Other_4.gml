@@ -9,6 +9,14 @@ if(room == testRoom) {
 	view_w = ideal_width;
 	view_h = ideal_height;
 }
+else if (room == TimeRoom) {
+	view_x = 0;
+	view_y = 464;
+	view_w = ideal_width;
+	view_h = ideal_height;
+	
+}
+
 else {
 	view_x = 0;
 	view_y = 0;
