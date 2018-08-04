@@ -3535,6 +3535,14 @@
             }
         },
         {
+            "Key": "ff979236-fa35-4b7b-9b79-34f4e2742419",
+            "Value": {
+                "id": "9c26afa7-a081-4446-b2f3-a6f40e0bc0c6",
+                "resourcePath": "sounds\\sndBossIntro\\sndBossIntro.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ffed7ace-a9fa-402a-b634-74f55fdabe2d",
             "Value": {
                 "id": "1ac807da-64b1-4674-9779-5a0ffb4baf8b",
