@@ -1,5 +1,4 @@
 //all player variables
-depth = 101
 
 //is player sliding?
 sliding = 0;

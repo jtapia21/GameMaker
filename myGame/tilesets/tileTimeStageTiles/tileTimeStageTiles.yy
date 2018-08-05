@@ -5297,7 +5297,7 @@
                 87,
                 89
             ],
-            "name": "splashLeft"
+            "name": "fallLeft"
         },
         {
             "id": "e7fadf10-77ae-45d7-b0ad-9a8aa06ffea0",
@@ -5337,7 +5337,7 @@
                 99,
                 101
             ],
-            "name": "splashRight"
+            "name": "fallRight"
         }
     ],
     "tile_animation_speed": 10,
