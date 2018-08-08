@@ -2999,6 +2999,14 @@
             }
         },
         {
+            "Key": "dadb6025-a30b-418d-83c8-0c5b4c116d23",
+            "Value": {
+                "id": "1c5c69ae-92ae-4a69-8d87-54ad854a41eb",
+                "resourcePath": "sprites\\sprPLayerFace\\sprPLayerFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "db91154a-5193-4794-b034-e7e807d95ac4",
             "Value": {
                 "id": "21e65e3b-0394-4d80-91ae-e592fcd8b4f4",
