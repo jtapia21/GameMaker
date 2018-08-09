@@ -2,16 +2,17 @@
 
 /////Jesse/////
 
-1. Boss Intro
+1. Finish stage
+
+2. Do code for turtle code and cannon(megaman 4) 
+
+3. Boss Intro
 	- Fixed font and text of the name of the boss
 	- Fix alignment of the text name of boss
 	- fix the switch statement
 
-2. Pause menu controls (completed)
+4. Get weapon screen(Showing player how the weapon is used)
 
-3. Get weapon screen(Showing player how the weapon is used)
-
-4. enemy ideas for first stage (city, sewer(turtles is a most), clock tower, and on sub bosses[max of minions per stage is 5 plus sub boss])
 
 5. Gimmicks (time bombs(blizzard man) (something to swing across time man)
 
@@ -24,18 +25,19 @@ Enemy Ideas:
 Turtles that their shells protect them and pop out when they attack.
 Rats that run to you when player is at a certain distance
 
+Intro menu song (Megaman Xtreme 2 OST - Opening Stage)
 
 /////John/////
 
-1. Sprites for first stage
+1. Enemies
 2. Intro for game
-3. Item number 1
-4. Glitches
-5. Enemy sprites
+3. Sprites for first stage
+4. Item number 1
+5. Glitches
 6. Stage select screen improvements
 7. Anything else you want to add or change
 
 
 
 ///////Bugs found////////
-1) when in the water Rem's sprite disapears she is invisible but still gets hurt 
+1) 
