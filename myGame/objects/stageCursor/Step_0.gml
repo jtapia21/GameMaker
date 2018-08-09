@@ -27,3 +27,18 @@ if (!KEYHOLD_LEFT && press_left == 1) {press_left = 0;}
 if (!KEYHOLD_UP && press_up == 1) {press_up = 0;}
 if (!KEYHOLD_RIGHT && press_right == 1) {press_right = 0;}
 if (!KEYHOLD_DOWN && press_down == 1) {press_down = 0;}
+
+//top face
+if (whereto_x == "l" && whereto_y == "t") {objPlayerFace.image_index = 1;}
+if (whereto_x == "m" && whereto_y == "t") {objPlayerFace.image_index = 2;}
+if (whereto_x == "r" && whereto_y == "t") {objPlayerFace.image_index = 3;}
+
+//middle face
+if (whereto_x == "l" && whereto_y == "m") {objPlayerFace.image_index = 8;}
+if (whereto_x == "m" && whereto_y == "m") {objPlayerFace.image_index = 0;}
+if (whereto_x == "r" && whereto_y == "m") {objPlayerFace.image_index = 4;}
+
+//bottom face
+if (whereto_x == "l" && whereto_y == "b") {objPlayerFace.image_index = 7;}
+if (whereto_x == "m" && whereto_y == "b") {objPlayerFace.image_index = 6;}
+if (whereto_x == "r" && whereto_y == "b") {objPlayerFace.image_index = 5;}
