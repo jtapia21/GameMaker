@@ -8,7 +8,7 @@ if (myhealth <= 0)
 {
 myhealth = 0;
 event_user(15);
-instance_create_depth(x-1,y-12,0,itemexplosion);
+instance_create_depth(x-1,y-12,15,itemexplosion);
 exit;
 }
 

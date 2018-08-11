@@ -29,12 +29,12 @@ Intro menu song (Megaman Xtreme 2 OST - Opening Stage)
 
 /////John/////
 
-1. Enemies
-2. Intro for game
+1. Enemies (done)
+2. Intro for game (in progress)
 3. Sprites for first stage
 4. Item number 1
 5. Glitches
-6. Stage select screen improvements
+6. Stage select screen improvements (done)
 7. Anything else you want to add or change
 
 

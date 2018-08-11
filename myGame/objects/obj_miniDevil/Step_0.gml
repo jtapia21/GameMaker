@@ -6,7 +6,7 @@ if (paused) exit;
 
 if (myhealth <= 0) {
 	event_user(15);
-	instance_create_depth(x-2,y+4,0,itemexplosion);
+	instance_create_depth(x-2,y+4,15,itemexplosion);
 	exit;
 }
 
