@@ -12,11 +12,12 @@ instance_create_depth(x-1,y-0,15,itemexplosion);
 exit;
 }
 
+if (timeStopping == 0 && sprite_index == SPRITE_STAND) { image_speed = 0.20;}
 
 /////checks if player jumped/////
-if (instance_exists(megaman) && paused == 0 && froze == 0)
+if (instance_exists(megaman) && paused == 0 && froze == 0 && timeStopping == 0)
 {
-
+	
 	if (jumping == 1 && megaman.hurt == 1) hit = 1;
 
 	if (canjump == 0 && x-92 < megaman.x && x+92 > megaman.x && megaman.y > y-64 && megaman.y-28 < y+32) event_user(0);
@@ -43,7 +44,7 @@ if (instance_exists(megaman) && paused == 0 && froze == 0)
 
 
 /////collision with walls/////
-if (froze == 0 && paused == 0)
+if (froze == 0 && paused == 0 && timeStopping == 0)
 {
 
 //Block collision - X
@@ -92,7 +93,7 @@ if (BLK && vsp>0)
         y=round(y);
         while (!place_meeting(x,y+sign(vsp),obj)) {y+=sign(vsp);}
         grounded=1; vsp=0;
-        image_speed = 0.4;
+        image_speed = 0.50;
         hsp = 0;
         break;
     }

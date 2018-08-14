@@ -24,7 +24,7 @@ if (LADR1 && canclimb)
         steploop=-1;
         alarm[0]=0; event_perform(ev_alarm,0);
         image_speed = 0.10;
-        if (sprite_index = SPRITE_CLIMBSHOOT) {vsp = 0;}
+        if (sprite_index == SPRITE_CLIMBSHOOT) {vsp = 0;}
     }
 	
 	//makes player climb down
@@ -35,7 +35,7 @@ if (LADR1 && canclimb)
         vsp=climbsp;
         steploop=-1;
         image_speed = 0.10;
-        if (sprite_index = SPRITE_CLIMBSHOOT) {vsp = 0;}
+        if (sprite_index == SPRITE_CLIMBSHOOT) {vsp = 0;}
     }
 }
 
@@ -52,7 +52,7 @@ if (!LADR1 && LADR2)
         x=LADR2.x+8;
         vsp=-climbsp;
         steploop=-1;
-        if (sprite_index = SPRITE_CLIMBSHOOT) {vsp = 0;}
+        if (sprite_index == SPRITE_CLIMBSHOOT) {vsp = 0;}
     }
 	
 	//if going down
@@ -61,7 +61,7 @@ if (!LADR1 && LADR2)
         pressing_down = 1;
         vsp=climbsp;
         steploop=-1;
-        if (sprite_index = SPRITE_CLIMBSHOOT) {vsp = 0;}
+        if (sprite_index == SPRITE_CLIMBSHOOT) {vsp = 0;}
     }
 }
 

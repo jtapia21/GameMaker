@@ -2,7 +2,7 @@ myhealth = 2;
 //How much damage is dealt to the player
 mypower = 3; 
 
-image_speed = 0.15;
+image_speed = 0;
 image_xscale = -1;
 
 paused = 0;
@@ -19,6 +19,9 @@ timeStopping = 0;
 
 //fish is able to turn around
 turn = 1;
+
+//animation control
+blinkTimer = 120;
 
 //Relates to its cutoff position, or rather, when it becomes visible in the view and such
 xv = 12; 

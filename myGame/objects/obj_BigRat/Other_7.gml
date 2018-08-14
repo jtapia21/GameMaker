@@ -1,7 +1,7 @@
 if (sprite_index == SPRITE_JUMP)
 {
     sprite_index = SPRITE_STAND;
-    image_speed = 0.15;
+    image_speed = 0.20;
     
     if (!collision_rectangle(x-14,y-2,x+14,y+1,block,true,true)) {alarm[1] = 6; hit = 0; exit; }
     

@@ -1,7 +1,7 @@
 myhealth = 3;
 mypower = 4;
 
-image_speed = 0.15;
+image_speed = 0.20;
 paused = 0;
 onscreen = 1;
 flashing = 0;

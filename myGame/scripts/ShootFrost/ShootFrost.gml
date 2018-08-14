@@ -20,11 +20,12 @@ if (KEYHOLD_B && pressing_b == 0 && sliding == 0 &&
         if (phase == 1)
         {
 
-        phase = 2;
+	        phase = 2;
 		
-        alarmdepth = 2;
-        if (image_xscale == 1) hsp = movesp;
-        else hsp = -movesp;
+	        alarmdepth = 2;
+		
+	        if (image_xscale == 1) hsp = movesp;
+	        else hsp = -movesp;
         }
     }
 }

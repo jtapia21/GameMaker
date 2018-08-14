@@ -22,3 +22,21 @@ if (x<view_x+view_w && x>view_x) {
 		image_speed = 0.20;
 	}
 }
+
+if (shootTimer > 0 && timeStopping == 0 && froze == 0) {
+	
+	shootTimer -= 1;
+	
+	if (shootTimer == 50) {
+		
+		sprite_index = sprYellowDAttack;
+		instance_create_depth(x,y-10,10,obj_bullet1);
+		audio_play_sound(sndEnemyShoot,5,false);
+	}
+	
+	if (shootTimer == 0) {
+		
+		sprite_index = sprYellowDIdle;
+		shootTimer = 160;
+	}
+}
