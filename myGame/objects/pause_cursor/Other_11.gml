@@ -3,7 +3,7 @@
 //////////left side weapons///////////
 
 //D.Hunter going to M.Bazooka
-if ((x == pm.IPW.x && y == pm.IPW.y) && pm.IBM.visible = 1) {
+if ((x == pm.IPW.x && y == pm.IPW.y) && pm.IMB.visible = 1) {
 	x=pm.IMB.x; 
 	y=pm.IMB.y; 
 	audio_stop_sound(sndCursor); 

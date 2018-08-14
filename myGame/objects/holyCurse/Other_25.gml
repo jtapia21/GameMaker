@@ -1,4 +1,4 @@
-//creates a new enemy
+//creates a new enemy when destroyed
 
 instance_destroy();
 new = instance_create_depth(xstart,ystart,10,holyCurse);

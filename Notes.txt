@@ -29,15 +29,29 @@ Intro menu song (Megaman Xtreme 2 OST - Opening Stage)
 
 /////John/////
 
-1. Enemies (done)
+//made weapon switching buttons to L key and M key
+
+1. My enemies (done)
 2. Intro for game (in progress)
 3. Sprites for first stage
 4. Item number 1
-5. Glitches
+5. Glitches (in progress)
 6. Stage select screen improvements (done)
 7. Anything else you want to add or change
 
 
 
 ///////Bugs found////////
-1) 
+* enemies don't become invisible when screen scrolling.
+
+* can't shoot frost barrier to the right when on a ladder.
+
+* when death in water, goes back to non water physics.
+
+* boss gets stuck in wall sometimes
+
+* going into boss room with half charge makes the color stay as half scharged if continuing to hold charge
+
+* can't pause the game when timestopped by boss
+
+* when hit near a wall and sliding, will get stuck

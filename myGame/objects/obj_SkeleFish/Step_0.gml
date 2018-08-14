@@ -9,7 +9,7 @@ if (myhealth <= 0)
 {
 	event_user(15);
 	//creates explosion that spawns a random item
-	instance_create_depth(x-1,y+16,15,itemexplosion);
+	instance_create_depth(x-1,y+10,15,itemexplosion);
 	exit;
 }
 

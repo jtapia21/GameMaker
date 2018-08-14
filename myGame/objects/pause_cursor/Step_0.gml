@@ -74,16 +74,16 @@ if (!KEYHOLD_RIGHT && pressing_right == 1) {pressing_right = 0;}
 if (!KEYHOLD_DOWN && pressing_down == 1) {pressing_down = 0;}
 
 //Check current weapon
-if (x == pm.IPW.x && y == pm.IPW.y) {global.currentweapon = "normal";}
-if (x == pm.IFB.x && y == pm.IFB.y) {global.currentweapon = "frost";}
-if (x == pm.IMB.x && y == pm.IMB.y) {global.currentweapon = "magma";}
-if (x == pm.IAS.x && y == pm.IAS.y) {global.currentweapon = "air";}
-if (x == pm.ITS.x && y == pm.ITS.y) {global.currentweapon = "stop";}
-if (x == pm.INC.x && y == pm.INC.y) {global.currentweapon = "chain";}
-if (x == pm.ITN.x && y == pm.ITN.y) {global.currentweapon = "earth";}
-if (x == pm.IBC.x && y == pm.IBC.y) {global.currentweapon = "bubble";}
-if (x == pm.ISM.x && y == pm.ISM.y) {global.currentweapon = "meteor";}
-if (x == pm.IIO.x && y == pm.IIO.y) {global.currentweapon = "item1";}
+if (x == pm.IPW.x && y == pm.IPW.y) {global.currentweapon = "normal"; megaman.myWeapon = 0;}
+if (x == pm.IMB.x && y == pm.IMB.y) {global.currentweapon = "magma"; megaman.myWeapon = 1;}
+if (x == pm.IFB.x && y == pm.IFB.y) {global.currentweapon = "frost"; megaman.myWeapon = 2;}
+if (x == pm.INC.x && y == pm.INC.y) {global.currentweapon = "chain"; megaman.myWeapon = 3;}
+if (x == pm.ITS.x && y == pm.ITS.y) {global.currentweapon = "stop"; megaman.myWeapon = 4;}
+if (x == pm.IAS.x && y == pm.IAS.y) {global.currentweapon = "air"; megaman.myWeapon = 5;}
+if (x == pm.IBC.x && y == pm.IBC.y) {global.currentweapon = "bubble"; megaman.myWeapon = 6;}
+if (x == pm.ITN.x && y == pm.ITN.y) {global.currentweapon = "earth"; megaman.myWeapon = 7;}
+if (x == pm.ISM.x && y == pm.ISM.y) {global.currentweapon = "meteor"; megaman.myWeapon = 8;}
+if (x == pm.IIO.x && y == pm.IIO.y) {global.currentweapon = "item1"; megaman.myWeapon = 9;}
 
 
 if (x == pm.ET.x && y == pm.ET.y) {global.currentweapon = "normal";}

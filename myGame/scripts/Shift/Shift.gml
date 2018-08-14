@@ -22,6 +22,7 @@ if (megaman.paused == 0)
 with (bulletparent) {instance_destroy();}
 with (effectsparent) {instance_destroy();}
 with (itemparent) {visible = 0; image_speed = 0;}
+//with (enemyparent) {visible = 0; image_speed = 0;}
 
 if (argument1 == "x") 
 {
@@ -52,10 +53,10 @@ if (argument0 == false)
 
 if (argument1 == "x") {megaman.x=round(megaman.x);}
 if (argument1 == "y") {megaman.y=round(megaman.y);}
-megaman.paused = 0; 
+megaman.paused = 0;
 
 with (itemparent) {visible = 1; image_speed = pre_iisp;}
 instance_activate_region(view_x-24,view_y-16,view_w+48,view_h+32,true);
-with (enemyparent) { event_user(14);}
+with (enemyparent) {event_user(14);}
 
 }

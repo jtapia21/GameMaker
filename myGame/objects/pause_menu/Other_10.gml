@@ -23,7 +23,7 @@ with (IFB) {img = 2; eng = "frostweapon"; if (global.frostDefeated) visible = 1;
 with (IMB) {img = 4; eng = "magmaweapon"; if (global.magmaDefeated) visible = 1; }
 with (IAS) {img = 6; eng = "airweapon"; if (global.airDefeated) visible = 1; }
 with (ITS) {img = 8; eng = "stopweapon"; if (global.stopDefeated) visible = 1; }
-with (INC) {img = 10; eng = "chainweapon"; if (global.chainDeafeated) visible = 1; }
+with (INC) {img = 10; eng = "chainweapon"; if (global.chainDefeated) visible = 1; }
 with (ITN) {img = 12; eng = "earthweapon"; if (global.earthDefeated) visible = 1; }
 with (ISM) {img = 14; eng = "meteorweapon"; if (global.meteorDefeated) visible = 1; }
 with (IBC) {img = 16; eng = "bubbleweapon"; if (global.bubbleDefeated) visible = 1; }

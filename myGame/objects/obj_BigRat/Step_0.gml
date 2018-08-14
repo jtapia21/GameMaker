@@ -1,4 +1,3 @@
-
 if (x-xv > view_x+view_w || x+xv < view_x || y-16 > view_y+view_h || y < view_y) 
 {event_user(15); }
 else if (onscreen == 0) {onscreen = 1; visible = 1; froze = 0; }

@@ -42,9 +42,9 @@ global.frostDefeated = 1;
 global.magmaDefeated = 1;
 global.airDefeated = 1;
 global.stopDefeated = 0;
-global.chainDeafeated = 1;
-global.earthDefeated = 1;
-global.bubbleDefeated = 1;
+global.chainDefeated = 1;
+global.earthDefeated = 0;
+global.bubbleDefeated = 0;
 global.meteorDefeated = 1;
 global.item1Aquired = 1;
 
