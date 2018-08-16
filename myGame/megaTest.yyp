@@ -3575,6 +3575,14 @@
             }
         },
         {
+            "Key": "fdf48d3e-95da-4eb8-895c-d1fd4101eaad",
+            "Value": {
+                "id": "78cd358b-b2cc-4a58-943c-379956945a8d",
+                "resourcePath": "sounds\\ThemeTimeStage\\ThemeTimeStage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "fdff3b43-80cd-4aed-8921-649dbe674bfe",
             "Value": {
                 "id": "db31488a-8e3d-46bf-b4a1-d93ed426d1b0",

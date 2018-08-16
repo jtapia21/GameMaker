@@ -1,5 +1,5 @@
 if (KEYHOLD_B && pressing_b == 0 && sliding == 0 &&
-	instance_number(itemN1) < 4 &&
+	instance_number(itemN1) < 3 &&
     global.item1weapon > 0 &&
     sprite_index != SPRITE_HURT &&
     hurt == 0) {

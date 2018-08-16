@@ -35,7 +35,7 @@ Intro menu song (Megaman Xtreme 2 OST - Opening Stage)
 1. My enemies (done)
 2. Intro for game (in progress)
 3. Sprites for first stage
-4. Item number 1
+4. Item number 1 (in progress)
 5. Glitches (in progress)
 6. Stage select screen improvements (done)
 7. Anything else you want to add or change
@@ -56,3 +56,5 @@ Intro menu song (Megaman Xtreme 2 OST - Opening Stage)
 * can't pause the game when timestopped by boss
 
 * when hit near a wall and sliding, will get stuck
+
+* item 1 stays solid after getting off it

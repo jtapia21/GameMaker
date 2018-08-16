@@ -1,2 +1,2 @@
 global.currentlevel = room;
-//play_music(global.music_testRoom,"mp3","loop");
+play_music(global.music_TimeTheme,"mp3","loop");
