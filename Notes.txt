@@ -30,6 +30,7 @@ Intro menu song (Megaman Xtreme 2 OST - Opening Stage)
 /////John/////
 
 //made weapon switching buttons to L key and O key
+//made pause to space key
 
 1. My enemies (done)
 2. Intro for game (in progress)

@@ -29,6 +29,7 @@ else {
 switch(room) {
 	
 	case firstRoom:
+	case Opening:
 	case titleScreen:
 	case selectScreen:
 	case saveRoom:

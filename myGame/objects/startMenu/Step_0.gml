@@ -10,7 +10,7 @@ if (choiceMade == false) {
 if (move != 0) {
 	
 	mpos += move;	//Add 1 to our menu position
-	
+	alarm[0] = reset_time;
 	//make sure doesnt go over the top or buttom of the menu options
 	//comeback around
 	if (mpos < 0 ) {
@@ -42,12 +42,13 @@ if (choiceMade == false) {
 	//Checks to see if we push the enter 
 	var push;
 
-	push = max(keyboard_check_released(vk_enter), keyboard_check_released(ord("K")), 0);
+	push = max(keyboard_check_released(vk_space), keyboard_check_released(ord("K")), 0);
 
 	//if button is pushed then call menu script
 	if (push == 1) { 
 		scr_menu();	//Calls scr_menu
 		choiceMade = true;
+		alarm[0] = reset_time;
 	}//End of if statement 
 }
 

@@ -15,7 +15,7 @@ global.key_right = ord("D");
 global.key_left = ord("A");
 global.key_jump = ord("K");
 global.key_shoot = ord("J");
-global.key_start = vk_enter;
+global.key_start = vk_space;
 
 global.myHealth = 28;
 global.myLives = 2;
