@@ -1178,7 +1178,7 @@
             "Key": "555c662f-83c5-402d-838c-28d8aebab162",
             "Value": {
                 "id": "ac808bc0-732a-4a96-81f9-ce7261371d31",
-                "resourcePath": "objects\/movingfloor\/movingfloor.yy",
+                "resourcePath": "objects\\movingfloor\\movingfloor.yy",
                 "resourceType": "GMObject"
             }
         },

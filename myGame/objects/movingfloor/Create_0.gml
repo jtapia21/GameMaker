@@ -1,6 +1,6 @@
 issolid = 1;
 
-image_xscale=8;
+image_xscale=4;
 mdir = "right";
 mhsp = 1;
 

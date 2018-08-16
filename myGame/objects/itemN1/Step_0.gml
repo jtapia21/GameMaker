@@ -16,6 +16,7 @@ if (alarmMoveUp > -1) {
 if (instance_exists(megaman)) {
 	
 	if (megaman.y < y) {issolid = 1;}
+	
 }
 
 //if outside of view, destroy
