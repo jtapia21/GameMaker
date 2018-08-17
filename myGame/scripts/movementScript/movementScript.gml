@@ -79,7 +79,7 @@ if (KEYHOLD_A && pressing_a == 0 && sliding == 0 && hurt == 0)
 		{
 			hsp = -slidesp; 
 			
-			if (!collision_line(x-16,y-4,x+15,y-4,block,true,true)) 
+			if (!collision_line(x-18,y-4,x+18,y-4,block,true,true)) 
 			{
 				instance_create_depth(x+0,y-8,0,slidedust);
 			} 
@@ -90,7 +90,7 @@ if (KEYHOLD_A && pressing_a == 0 && sliding == 0 && hurt == 0)
 		{
 			hsp = slidesp; 
 			
-			if (!collision_line(x-15,y-4,x+15,y-4,block,true,true)) 
+			if (!collision_line(x-18,y-4,x+18,y-4,block,true,true)) 
 			{
 				instance_create_depth(x-8,y-8,0,slidedust);
 			} 
@@ -108,20 +108,20 @@ if (KEYHOLD_A && pressing_a == 0 && sliding == 0 && hurt == 0)
 			mask_index = sprMegaSlideMask2; 
 			
 			//if facing left 
-            if (image_xscale == -1 && !collision_line(x-15,y-4,x+0,y-4,block,true,true)) 
+            if (image_xscale == -1 && !collision_line(x-14,y-4,x+0,y-4,block,true,true)) 
 			{
 				instance_create_depth(x+0,y-8,0,slidedust); 
 			}
 			
 			//if facing right
-            if (image_xscale == 1 && !collision_line(x-0,y-4,x+15,y-4,block,true,true)) 
+            if (image_xscale == 1 && !collision_line(x-0,y-4,x+14,y-4,block,true,true)) 
 			{
 				instance_create_depth(x-8,y-8,0,slidedust); 
 			}
         }
 		
 		//ctivates the alarm of the object to stop the slide
-        alarm[0] = 19;
+        alarm[0] = 24;
     }
 }
 

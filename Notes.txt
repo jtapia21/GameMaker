@@ -56,5 +56,6 @@ Intro menu song (Megaman Xtreme 2 OST - Opening Stage)
 * can't pause the game when timestopped by boss
 
 * when hit near a wall and sliding, will get stuck
+	I think its fixed, but now player stops sliding when one square away from wall.
 
 * item 1 stays solid after getting off it

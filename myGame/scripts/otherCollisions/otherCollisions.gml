@@ -23,7 +23,7 @@ if (collision_rectangle(x-7,y-2,x+7,bbox_top,enemyparent,true,true) && flash == 
     climbing = 0;
     canwalkshoot = true; alarmwalkshoot = -1;
     image_index = 0;
-    image_speed = 0.60;
+    image_speed = 0.45;
     if !(sliding == 0 && alarm[0] > 0) mask_index = mskMega;
     global.myHealth -= ENEMY.mypower;
     if (global.myHealth > 0)
