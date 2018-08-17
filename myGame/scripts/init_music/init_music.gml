@@ -14,6 +14,7 @@ global.music_testRoom1 = titleMusic;
 global.music_testRoom2 = sndStageSelect;
 global.music_boss1 = bossMusic1;
 global.music_victory = mus_victory;
+global.music_BossIntro = sndBossIntro;
 
 //stages
 global.music_TimeTheme = ThemeTimeStage;

@@ -32,12 +32,12 @@ draw_sprite(sprIntroPanel, 0, 0, 0);
 draw_sprite_ext(bossSprite, floor(bossImg), round(room_width/2), round(room_height/2)-4, -1, 1, 0, make_color_rgb(bossRGB, bossRGB, bossRGB), 1);
 
 //The text displaying the name of the Robot Master
-draw_set_font(font0);
+draw_set_font(global.MM3font);
 draw_set_halign(fa_left);
 var oldCol;
 oldCol = draw_get_color();
 draw_set_color(c_white);
 
-draw_text(round(room_width/2) - round(string_width(string_hash_to_newline(name))/2), 136, string_hash_to_newline(bossDisplayName));
+draw_text(round(room_width/2) - round(string_width(string_hash_to_newline(name))/2), 116, string_hash_to_newline(bossDisplayName));
 
 draw_set_color(oldCol);

@@ -2,13 +2,11 @@
 
 /////Jesse/////
 
-1. Finish stage
+1. Finish stage (Done [if john needs me to add one more screen for the player to go up I will do so])
 
 2. Do code for turtle code and cannon(megaman 4) 
 
 3. Boss Intro
-	- Fixed font and text of the name of the boss
-	- Fix alignment of the text name of boss
 	- fix the switch statement
 
 4. Get weapon screen(Showing player how the weapon is used)

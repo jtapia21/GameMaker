@@ -3,6 +3,8 @@
 
 //playMusicNoLoopVolume("Introduction.ogg", 0.7);
 
+play_music(global.music_BossIntro,"mp3","play");
+
 totalLinesUp = 2;
 lineUpY[0] = round(room_height/4)-21;
 lineUpY[1] = round(room_height/2)-14;
@@ -21,7 +23,7 @@ lineSpd = 2;
 standSprite = sprTimeStand; //The standing sprite
 pose = time_intro; //The posing sprite
 poseImgSpeed = 3/60; //The image speed (animation speed) of the pose
-name = "Paradox";
+name = "PARADOX";	//Needs to be in all caps
 
 
 //Not working.
@@ -33,7 +35,7 @@ switch global.introductionBoss
         standSprite = sprTimeStand; //The standing sprite
         pose = sprTimeStandShoot; //The posing sprite
         poseImgSpeed = 3/60; //The image speed (animation speed) of the pose
-        name = "Paradox";
+        name = "PARADOX";	//Needs to be in all caps
 		break;
 	
 	case "testRoom":
@@ -61,3 +63,5 @@ bossTextPos = 0;
 bossDisplayName = "";
 
 alarm[0] = 450; //Going to the level
+
+global.MM3font = font_add_sprite(sprMM3Font, ord("!"), true, 0);
