@@ -121,7 +121,7 @@ if (KEYHOLD_A && pressing_a == 0 && sliding == 0 && hurt == 0)
         }
 		
 		//ctivates the alarm of the object to stop the slide
-        alarm[0] = 26;
+        alarm[0] = 19;
     }
 }
 
@@ -160,7 +160,7 @@ if (KEYHOLD_LEFT && pressing_left == 0 && canwalk == 0 && hurt == 0)
 			}
 			
             else {
-				alarm[0]=2; 
+				alarm[0]=1; 
 				hsp = -slidesp; 
 				image_xscale = -1;
 				}
@@ -212,7 +212,7 @@ if (KEYHOLD_RIGHT && pressing_right == 0 && canwalk == 0 && hurt == 0)
 				image_xscale = 1;
 			}
             else {
-				alarm[0]=2; 
+				alarm[0]=1; 
 				hsp = slidesp; 
 				image_xscale = 1;
 				}
@@ -273,7 +273,7 @@ if (KEYHOLD_LEFT && hurt == 0)
 				image_xscale = -1;
 			}
             else {
-				alarm[0]=2; 
+				alarm[0]=1; 
 				hsp = -slidesp; 
 				image_xscale = -1;
 				}
@@ -319,7 +319,7 @@ if (KEYHOLD_RIGHT && hurt == 0)
 				image_xscale = 1;
 			}
             else {
-				alarm[0]=2; 
+				alarm[0]=1; 
 				hsp = slidesp; 
 				image_xscale = 1;
 				}
