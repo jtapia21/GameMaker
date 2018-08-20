@@ -3,7 +3,7 @@
 /////Jesse/////
 
 1. Finish stage (Done [if john needs me to add one more screen for the player to go up I will do so])
-	(I added the screen for sub boss and after that the screen to go up.)
+	(I added the screen for sub boss and after that the screen to go up. I need to do clock tower sprites for next sections of stage.)
 
 2. Do code for turtle code and cannon(megaman 4) 
 
