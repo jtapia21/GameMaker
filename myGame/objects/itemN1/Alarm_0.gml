@@ -1,7 +1,7 @@
 if (flashloop > 0)
 {
 	
-alarm[0] = 2;
+alarm[0] = 1;
 flashloop -= 1;
 
 if (visible == 0)

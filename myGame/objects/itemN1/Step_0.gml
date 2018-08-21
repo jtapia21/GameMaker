@@ -20,5 +20,5 @@ if (instance_exists(megaman)) {
 }
 
 //if outside of view, destroy
-if (x-18 > view_x+view_w || x+18 < view_x || y > view_y+view_h || y < view_y)
+if (x-8 > view_x+view_w || x+8 < view_x || y > view_y+view_h || y < view_y) 
 {instance_destroy();}
