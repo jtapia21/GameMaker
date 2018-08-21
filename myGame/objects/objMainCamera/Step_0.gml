@@ -109,3 +109,11 @@ if (shift == 4) {
 
 view_x=clamp(view_x,0,room_width-view_w);
 view_y=clamp(view_y,0,room_height-view_h);
+
+//create rain 
+if (room == TimeRoom) {
+	
+	part_emitter_region(partRain_sys,partRain_emit,view_x-200,view_x+view_w,view_y-16, view_y-16,ps_shape_line,ps_distr_linear);
+	part_emitter_burst(partRain_sys,partRain_emit,partRain,1);
+}
+

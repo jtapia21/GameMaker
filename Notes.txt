@@ -39,6 +39,12 @@ Intro menu song (Megaman Xtreme 2 OST - Opening Stage)
 6. Stage select screen improvements (done)
 7. Anything else you want to add or change
 
+//added rain for stage
+need to make it stop raining when in sewers.
+Rain effect isnt already raining when stage starts. 
+Also player outruns rain if going right. you can see the far right
+corner of screen not having rain. 
+
 
 
 ///////Bugs found////////
