@@ -1,5 +1,5 @@
 
-issolid = 0;
+issolid = 1;
 paused = 0;
 alarmMoveUp = 45;
 ricochet = 0;

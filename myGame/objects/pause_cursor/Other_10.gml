@@ -10,6 +10,8 @@ if (x == pm.ET.x && y == pm.ET.y)
     exit;
 }
 
+if (weaponquestion != global.currentweapon = "stop") {megaman.timeStopping = 0;}
+
 instance_create_depth(view_x,view_y,-2800,fadeOutPause);
 fadeOutPause.pausevalue = 0;
 audio_play_sound(sndSelect,5,false);

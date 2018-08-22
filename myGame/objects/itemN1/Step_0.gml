@@ -13,10 +13,10 @@ if (alarmMoveUp > -1) {
 }
 
 //turns solid if megaman lands on top
-if (instance_exists(megaman)) {
-	
-	if (megaman.y < y) {issolid = 1;}
-	
+if (instance_exists(megaman))
+{
+    if (y+4 > megaman.y) {issolid = 1;}
+    else {issolid = 0;}
 }
 
 //if outside of view, destroy

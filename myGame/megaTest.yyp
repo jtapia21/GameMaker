@@ -3223,6 +3223,14 @@
             }
         },
         {
+            "Key": "e969d6b1-3de5-4b42-a0a8-b6d9251f8064",
+            "Value": {
+                "id": "f0ad605d-ef67-44ba-9409-3bd075f374da",
+                "resourcePath": "objects\\obj_enemyBat\\obj_enemyBat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e9bf258e-5ab0-4771-8306-90653cd0fd7c",
             "Value": {
                 "id": "16acc93d-9e21-47f0-9327-f2730aa2daa3",

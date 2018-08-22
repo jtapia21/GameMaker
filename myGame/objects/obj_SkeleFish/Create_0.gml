@@ -24,7 +24,7 @@ turn = 1;
 blinkTimer = 120;
 
 //Relates to its cutoff position, or rather, when it becomes visible in the view and such
-xv = 12; 
+xv = 14; 
 isbullet = 0;
 
 if (x-xv > view_x+view_w || x+xv < view_x || y > view_y+view_h || y < view_y) 
