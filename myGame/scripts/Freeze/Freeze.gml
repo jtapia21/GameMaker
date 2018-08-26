@@ -35,7 +35,7 @@ if (megaman.paused == 0)
     }
     
     //Blocks
-    with (block) {pre_oisp = image_speed; image_speed = 0;}
+    with (block) {pre_oisp = image_speed; image_speed = 0; paused = 1}
 }
 
 with (megaman)
@@ -116,5 +116,6 @@ with (airbubble) {vspeed = mvsp;}
 
 //Blocks
 //with (block) {if (variable_local_exists('pre_oisp')) image_speed = pre_oisp;}
+with (block) {paused = 0;}
 
 }

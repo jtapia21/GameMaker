@@ -1215,6 +1215,14 @@
             }
         },
         {
+            "Key": "57c63f75-8ef3-4305-a566-f2b22117621d",
+            "Value": {
+                "id": "d11fbc66-c674-4beb-b63e-1773edb26c1b",
+                "resourcePath": "sprites\\sprBombPlatform1\\sprBombPlatform1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59a4a514-7fc0-49b2-be29-c9bf151f8b01",
             "Value": {
                 "id": "a29ddd0d-0e14-4e6d-9c99-3a6ef9d55898",
@@ -2455,6 +2463,14 @@
             }
         },
         {
+            "Key": "af9e6749-66f7-48fa-9841-587e9f5a54b8",
+            "Value": {
+                "id": "64c6f8e5-cea9-404a-899c-e55584158f90",
+                "resourcePath": "sprites\\sprPendulum\\sprPendulum.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b009beb4-e60a-44ab-ade8-05faf4f4d077",
             "Value": {
                 "id": "3c518528-dc23-4865-a3f9-847f0241811c",
@@ -2580,6 +2596,14 @@
                 "id": "1d8f804d-a872-4811-a5c7-b5132ebdedce",
                 "resourcePath": "sounds\/sndEnemyShoot\/sndEnemyShoot.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b94fcf40-e62b-4c29-8e43-0fcdaf68244e",
+            "Value": {
+                "id": "cd7bbfc0-94ad-40dd-a2f1-923912ba514b",
+                "resourcePath": "sprites\\sprTestMovePlatform\\sprTestMovePlatform.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3108,6 +3132,14 @@
                 "id": "e1b1742f-beaa-4a79-b383-98d19a6ae32b",
                 "resourcePath": "sprites\/sprJumpShoot2\/sprJumpShoot2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ded13b66-6a77-42b6-8e22-b81d162e1787",
+            "Value": {
+                "id": "6a1b3c2d-8383-4d39-858f-3e12a3c650f4",
+                "resourcePath": "objects\\obj_movingPlat\\obj_movingPlat.yy",
+                "resourceType": "GMObject"
             }
         },
         {

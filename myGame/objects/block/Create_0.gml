@@ -2,4 +2,5 @@
 
 depth = 100;
 
+paused = 0;
 issolid = 1;

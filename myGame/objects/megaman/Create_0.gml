@@ -26,6 +26,8 @@ inwater = 0;
 myWeapon = 0;
 //am I stopping time
 timeStopping = 0;
+//when on moving platform
+hsp_carry = 0;
 
 //charge variables
 charge = 0;

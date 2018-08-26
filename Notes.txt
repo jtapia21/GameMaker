@@ -14,7 +14,7 @@
 
 
 5. Gimmicks (time bombs(blizzard man) (something to swing across time man)
-	(need these for some rooms in time stage. Will get sprites soon.)
+	(need these for some rooms in time stage. Sprites are added)
 
 6. Weapons(finish weapons)
 
@@ -32,13 +32,11 @@ Intro menu song (Megaman Xtreme 2 OST - Opening Stage)
 //made weapon switching buttons to L key and O key
 //made pause to space key
 
-1. My enemies (done)
-2. Intro for game (in progress)
-3. Sprites for first stage
-4. Item number 1 (in progress)
-5. Glitches (in progress)
-6. Stage select screen improvements (done)
-7. Anything else you want to add or change
+1. Intro for game (in progress)
+2. Sprites for first stage(in progress)
+3. Item number 1 (done)
+4. Glitches (in progress)
+5. Anything else you want to add or change
 
 //added rain for stage
 need to make it stop raining when in sewers.
@@ -63,5 +61,3 @@ corner of screen not having rain.
 
 * when hit near a wall and sliding, will get stuck
 	I think its fixed, but now player stops sliding when one square away from wall.
-
-* item 1 timer still on when paused

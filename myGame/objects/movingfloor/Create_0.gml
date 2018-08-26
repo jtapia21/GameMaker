@@ -15,3 +15,6 @@ would cover 7 plus the one you place it on.
 And while the movingfloor object is a solid block on its
 own, you'll usually want to place it over the standard
 'block' object.
+
+set variables mdir and image_xscale in its creation code by double 
+clicking it in the room

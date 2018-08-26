@@ -1,7 +1,11 @@
+//used for moving platforms
+var hsp_final = hsp + hsp_carry;
+hsp_carry = 0;
+
 //Block collision - X
-if (instance_place(x+hsp,y,block))
+if (instance_place(x+hsp_final,y,block))
 {
-    blocklist = instance_place_list(x+hsp,y,block);
+    blocklist = instance_place_list(x+hsp_final,y,block);
 
     blc=-1;
     repeat(ds_list_size(blocklist))
@@ -9,17 +13,18 @@ if (instance_place(x+hsp,y,block))
     blc+=1;
     obj=ds_list_find_value(blocklist,blc);
     
-    if (hsp != 0 && obj.issolid == 1) 
+    if (hsp_final != 0 && obj.issolid == 1) 
     {
 		
-        while (!place_meeting(x+sign(hsp),y,obj)) {x+=sign(hsp);}
-        hsp=0; x=floor(x); if (sliding == 1) {alarm[0]=0; event_perform(ev_alarm,0);}
+        while (!place_meeting(x+sign(hsp_final),y,obj)) {x+=sign(hsp_final);}
+        hsp_final=0; hsp=0; x=floor(x); if (sliding == 1) {alarm[0]=0; event_perform(ev_alarm,0);}
         break;
     }
     }
     ds_list_destroy(blocklist);
 }
-x+=hsp;
+x+=hsp_final;
+
 
 
 //Check if in air
