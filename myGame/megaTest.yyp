@@ -2870,6 +2870,25 @@
             }
         },
         {
+            "Key": "58ec96cc-3124-4d06-b03b-1e6cac2fc0a4",
+            "Value": {
+                "id": "aae40aa5-65ef-4bea-bb81-db71132ee95b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_cannonShot\/obj_cannonShot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59a4a514-7fc0-49b2-be29-c9bf151f8b01",
             "Value": {
                 "id": "a29ddd0d-0e14-4e6d-9c99-3a6ef9d55898",

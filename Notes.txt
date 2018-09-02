@@ -5,7 +5,7 @@
 1. Finish stage ()
 	(make the rest of the stage up until the door to the boss)
 
-2. Do code for turtle code and cannon(megaman 4) 
+2. Do code for turtle code and cannon(in progress) 
 
 3. Boss Intro
 	- fix the switch statement
